@@ -1,0 +1,8 @@
+{
+  "name": "nextapp-ai-ideas-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/nextapp-ai-ideas-e2e/src",
+  "implicitDependencies": ["nextapp-ai-ideas"],
+  "// targets": "to see all targets run: nx show project nextapp-ai-ideas-e2e --web",
+  "targets": {}
+}
