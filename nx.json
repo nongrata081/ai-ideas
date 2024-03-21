@@ -51,5 +51,15 @@
         "linter": "eslint"
       }
     }
+  },
+  "release": {
+    "projects": ["*", "!*-e2e"],
+    "releaseTagPattern": "v{version}",
+    "git": {
+      "commitMessage": "chore(release): {version}"
+    },
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }
