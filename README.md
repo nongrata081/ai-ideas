@@ -34,6 +34,19 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 - [LM Studio](./readme/tools/lm-studio.md)
 - [Open Interpreter](./readme/tools/open-interpreter.md)
 - [Devika](./readme/tools/devika.md)
+- [Gorilla](./readme/tools/gorilla.md)
+
+---
+
+## Courses
+
+- [Courses](./readme/courses/courses.md)
+
+---
+
+## Next.js
+
+- [next.js](./readme/tools/nextjs.md)
 
 ---
 
