@@ -1,10 +1,4 @@
-# AiIdeas
-
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
----
-
-# Random AI Ideas
+# ai ideas
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -32,6 +26,14 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 - [Future companies (fully digitized & data-streamed)](./readme/ideas/future-companies/future-companies.md)
 - [Future jobs (fully digitized & data-streamed)](./readme/ideas/future-jobs/future-jobs.md)
 - [Write software with AI](./readme/ideas/write-software-with-ai/write-software-with-ai.md)
+
+---
+
+## Tools
+
+- [LM Studio](./readme/tools/lm-studio.md)
+- [Open Interpreter](./readme/tools/open-interpreter.md)
+- [Devika](./readme/tools/devika.md)
 
 ---
 
