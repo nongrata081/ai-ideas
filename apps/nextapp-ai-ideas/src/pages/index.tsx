@@ -28,6 +28,8 @@ import Slider from '@mui/material/Slider';
 import VolumeDown from '@mui/icons-material/VolumeDown';
 import VolumeUp from '@mui/icons-material/VolumeUp';
 import { Switch } from '@mui/material';
+// Test react-ui-lib-ai-ideas ui lib
+import { ReactUiLibAiIdeas } from '@ai-ideas/react-ui-lib-ai-ideas';
 
 // Test MUI
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
@@ -180,6 +182,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <ReactUiLibAiIdeas></ReactUiLibAiIdeas>
       <div>
         <Switch {...label} defaultChecked />
         <Switch {...label} />

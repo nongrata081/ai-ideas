@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ai-ideas/react-ui-lib-ai-ideas": [
+        "libs/react-ui-lib-ai-ideas/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

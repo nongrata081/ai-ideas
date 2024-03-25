@@ -1,0 +1,9 @@
+{
+  "name": "react-ui-lib-ai-ideas",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/react-ui-lib-ai-ideas/src",
+  "projectType": "library",
+  "tags": ["scope:shared", "type:ui"],
+  "// targets": "to see all targets run: nx show project react-ui-lib-ai-ideas --web",
+  "targets": {}
+}
