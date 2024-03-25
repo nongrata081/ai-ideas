@@ -31,35 +31,13 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 
 ## Tools
 
-- [LM Studio](./readme/tools/lm-studio.md)
-- [Open Interpreter](./readme/tools/open-interpreter.md)
-- [Gorilla](./readme/tools/gorilla.md)
-- [LobeHub](./readme/tools/lobehub.md)
-
-### Codegen
-
-- [devin](./readme/tools/codegen/devin.md)
-- [devika](./readme/tools/codegen/devika.md)
-- [autogen](./readme/tools/codegen/autogen.md)
-- [codel](./readme/tools/codegen/codel.md)
-- [meta-gpt](./readme/tools/codegen/meta-gpt.md)
-- [pythagora](./readme/tools/codegen/pythagora-gpt-pilot.md)
-
-### Computer vision
-
-- [supervision](/readme/tools/computer-vision/supervision.md)
+- [Tools](./readme/tools/tools.md)
 
 ---
 
 ## Courses
 
 - [Courses](./readme/courses/courses.md)
-
----
-
-## Next.js
-
-- [next.js](./readme/tools/nextjs.md)
 
 ---
 
