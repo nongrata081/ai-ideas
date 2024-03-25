@@ -4,6 +4,7 @@ import './styles.css';
 import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Roboto } from 'next/font/google';
+import CssBaseline from '@mui/material/CssBaseline';
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -26,6 +27,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
         </Head>
         <main className="app">
           <ThemeProvider theme={theme}>
+            <CssBaseline />
             <Component {...pageProps} />
           </ThemeProvider>
         </main>
