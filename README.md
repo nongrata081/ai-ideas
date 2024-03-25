@@ -37,6 +37,7 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 - [Devika](./readme/tools/devika.md)
 - [Gorilla](./readme/tools/gorilla.md)
 - [Autogen](./readme/tools/autogen.md)
+- [codel](./readme/tools/codel.md)
 
 ---
 
