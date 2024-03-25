@@ -26,7 +26,6 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 - [Future companies (fully digitized & data-streamed)](./readme/ideas/future-companies/future-companies.md)
 - [Future jobs (fully digitized & data-streamed)](./readme/ideas/future-jobs/future-jobs.md)
 - [Write software with AI](./readme/ideas/write-software-with-ai/write-software-with-ai.md)
-- [LobeHub](./readme/tools/lobehub.md)
 
 ---
 
@@ -34,10 +33,21 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 
 - [LM Studio](./readme/tools/lm-studio.md)
 - [Open Interpreter](./readme/tools/open-interpreter.md)
-- [Devika](./readme/tools/devika.md)
 - [Gorilla](./readme/tools/gorilla.md)
-- [Autogen](./readme/tools/autogen.md)
-- [codel](./readme/tools/codel.md)
+- [LobeHub](./readme/tools/lobehub.md)
+
+### Codegen
+
+- [devin](./readme/tools/codegen/devin.md)
+- [devika](./readme/tools/codegen/devika.md)
+- [autogen](./readme/tools/codegen/autogen.md)
+- [codel](./readme/tools/codegen/codel.md)
+- [meta-gpt](./readme/tools/codegen/meta-gpt.md)
+- [pythagora](./readme/tools/codegen/pythagora-gpt-pilot.md)
+
+### Computer vision
+
+- [supervision](/readme/tools/computer-vision/supervision.md)
 
 ---
 
