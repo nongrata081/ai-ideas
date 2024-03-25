@@ -29,18 +29,6 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 
 ---
 
-## Tools
-
-- [Tools](./readme/tools/tools.md)
-
----
-
-## Courses
-
-- [Courses](./readme/courses/courses.md)
-
----
-
 ## Stack
 
 This repo is scaffolded as [nx workspace](https://nx.dev/) and is intended to be used as a monorepository for possible applications and libraries that will help better unfold ideas.
