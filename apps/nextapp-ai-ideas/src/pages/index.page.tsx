@@ -1,6 +1,8 @@
 import styles from './index.module.scss';
 import React from 'react';
 
+import { RulaiAppBar } from '@ai-ideas/react-ui-lib-ai-ideas';
+
 // Test MUI
 import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
@@ -182,6 +184,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <RulaiAppBar></RulaiAppBar>
       <div className="welcome-heading">Welcome</div>
       <ReactUiLibAiIdeas></ReactUiLibAiIdeas>
       <div>
