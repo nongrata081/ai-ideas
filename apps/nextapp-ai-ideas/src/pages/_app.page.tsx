@@ -5,6 +5,19 @@ import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Roboto } from 'next/font/google';
 import CssBaseline from '@mui/material/CssBaseline';
+import type { ReactElement, ReactNode } from 'react';
+import type { NextPage } from 'next';
+
+// Types for page layout
+export type NextPageWithLayout<P = object, IP = P> = NextPage<
+  Partial<P>,
+  Partial<IP>
+> & {
+  getLayout?: (page: ReactElement) => ReactNode;
+};
+type AppPropsWithLayout = AppProps & {
+  Component: NextPageWithLayout;
+};
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -18,8 +31,11 @@ const theme = createTheme({
   },
 });
 
-function CustomApp({ Component, pageProps }: AppProps) {
-  return (
+function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
+  // Use the layout defined at the page level, if available
+  const getLayout = Component.getLayout ?? ((page) => page);
+
+  return getLayout(
     <>
       <AppCacheProvider {...pageProps}>
         <Head>
@@ -32,7 +48,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
           </ThemeProvider>
         </main>
       </AppCacheProvider>
-    </>
+    </>,
   );
 }
 
