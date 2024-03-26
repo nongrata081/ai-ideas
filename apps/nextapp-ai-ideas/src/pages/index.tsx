@@ -182,6 +182,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <div className="welcome-heading">Welcome</div>
       <ReactUiLibAiIdeas></ReactUiLibAiIdeas>
       <div>
         <Switch {...label} defaultChecked />
