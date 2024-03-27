@@ -15,25 +15,28 @@ export interface RulaiAppBarProps {}
 export class RulaiAppBar extends Component<RulaiAppBarProps> {
   override render() {
     return (
-      <AppBar component="nav">
-        <Toolbar>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            random ai ideas
-          </Typography>
+      <>
+        <AppBar component="nav">
+          <Toolbar>
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            >
+              random ai ideas
+            </Typography>
 
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
+            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+              {navItems.map((item) => (
+                <Button key={item} sx={{ color: '#fff' }}>
+                  {item}
+                </Button>
+              ))}
+            </Box>
+          </Toolbar>
+        </AppBar>
+        <Toolbar />
+      </>
     );
   }
 }
