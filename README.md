@@ -26,6 +26,7 @@ For now these ideas are just my random thoughts. I'd be happy to get any useful 
 - [Future companies (fully digitized & data-streamed)](./readme/ideas/future-companies/future-companies.md)
 - [Future jobs (fully digitized & data-streamed)](./readme/ideas/future-jobs/future-jobs.md)
 - [Write software with AI](./readme/ideas/write-software-with-ai/write-software-with-ai.md)
+- [Codebase Maintainer AI](./readme/ideas/codebase-maintainer-ai/codebase-maintainer-ai.md)
 
 ---
 
