@@ -92,6 +92,8 @@ However, it'd come at a certain cost - having to maintain the codebase, includin
 
 [Groq Models](https://console.groq.com/docs/models)
 
+[OI locally](https://docs.openinterpreter.com/guides/running-locally)
+
 ### Aider ?
 
 #1 SWE-bench
@@ -103,3 +105,10 @@ https://aider.chat/
 https://aider.chat/docs/llms.html
 
 https://github.com/paul-gauthier/aider
+
+---
+
+## Goals
+
+- [ ] Get a good reliable local LLM
+- [ ] Get it to work well with [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)
