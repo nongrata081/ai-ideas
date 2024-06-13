@@ -7,6 +7,7 @@ import { Roboto } from 'next/font/google';
 import CssBaseline from '@mui/material/CssBaseline';
 import type { ReactElement, ReactNode } from 'react';
 import type { NextPage } from 'next';
+import Box from '@mui/material/Box';
 
 // Types for page layout
 export type NextPageWithLayout<P = object, IP = P> = NextPage<
@@ -41,12 +42,19 @@ function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
         <Head>
           <title>Welcome to nextapp-ai-ideas!</title>
         </Head>
-        <main className="app">
+        {/* <main className="app">
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <Component {...pageProps} />
           </ThemeProvider>
-        </main>
+        </main> */}
+
+        <Box sx={{ display: 'flex' }}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </Box>
       </AppCacheProvider>
     </>,
   );
