@@ -30,6 +30,7 @@ This requires a new approach and mindset as for the data. In the AI age availibi
 - People, who want to be competitive in AI age, should have data-literacy, sufficient to enable data-streams of whatever they do (that would enable AI to consume this data and function)
 - Data-streaming of any process might be made easy with
   - physical devices
+    - [milesight.com](https://www.milesight.com/)
   - open-source tools
 
 ## Conclusions
