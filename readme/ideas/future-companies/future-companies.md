@@ -31,6 +31,7 @@ This requires a new approach and mindset as for the data. In the AI age availibi
 - Data-streaming of any process might be made easy with
   - physical devices
     - [milesight.com](https://www.milesight.com/)
+    - [eufy.com](https://www.eufy.com/eufy-security)
   - open-source tools
 
 ## Conclusions
