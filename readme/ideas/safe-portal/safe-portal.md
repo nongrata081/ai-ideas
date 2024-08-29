@@ -13,6 +13,10 @@ Create a single open source tool with GUI that would make it easy to plan and ex
 
 ## Use cases
 
+- Generate
+  - Entire value streams out of OKRs
+  - Solutions from solutions intents (& deploy them)
+    - Apps from several lines of code
 - Web GUI wizard for:
   - [Customer centricity](https://scaledagileframework.com/customer-centricity/) (AI helper)
   - [Strategic themes](https://scaledagileframework.com/strategic-themes/) (examples, templates, 3d-party data inregration, e.g. for delegating)
@@ -20,6 +24,8 @@ Create a single open source tool with GUI that would make it easy to plan and ex
   - [Compliance](https://scaledagileframework.com/compliance/) (automate compliance verifications, progress maps, real-time updates from external sources (new laws, regulations, etc.))
   - [Solution intent](https://scaledagileframework.com/solution-intent/) (AI helper)
   - Each entity of SAFe
+
+Nowadays apps are being developed by teams and it takes long time to get it done. Imagine you could generate a lot of those and choose from many different options, all according to and through the lens of SAFe methodology.
 
 ## Considerations
 
