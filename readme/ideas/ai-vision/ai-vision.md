@@ -55,3 +55,15 @@ Agentic Frameworks flow
 Data pipeline flow
 
 ![](./data-pipeline-flow.png)
+
+---
+
+Agentic frameworks
+
+- [crewai](https://www.crewai.com/)
+  - [crewAI github](https://github.com/crewAIInc/crewAI)
+- [langchain](https://github.com/langchain-ai/langchain)
+  - [langgraph](https://langchain-ai.github.io/langgraph/)
+- [MetaGPT](https://github.com/geekan/MetaGPT)
+- [llamaindex](https://www.llamaindex.ai/)
+- [autogen](https://github.com/microsoft/autogen)
