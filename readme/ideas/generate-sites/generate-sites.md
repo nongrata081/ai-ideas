@@ -4,6 +4,8 @@ Would be nice to generate entire (static) sites with a tool like Nextra, not jus
 
 A CMS might not be needed as content would be edited from .md files in a repo.
 
+Imagine Nextra site but with a UI built with MUI (?).
+
 ## Types of sites
 
 - e-commerce
