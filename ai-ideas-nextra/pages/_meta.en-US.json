@@ -1,0 +1,26 @@
+{
+  "index": "AI Ideas",
+  "another": "Another Page",
+  "advanced": "Advanced (A Folder)",
+  "ai-university": "AI University",
+  "ai-vision": "AI Vision",
+  "codebase-maintainer-ai": "Codebase maintainer AI",
+  "commit-verifiable-changes": "Commit verifiable changes",
+  "data-enabler": "Data Enabler",
+  "economics-of-ai": "Economics of AI",
+  "future-companies": "Future companies",
+  "future-jobs": "Future jobs",
+  "generate-sites": "Generate sites",
+  "org-wide-chat": "Org-wide chat",
+  "safe-portal": "SAFe portal",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://github.com/nongrata081",
+    "newWindow": true
+  }
+}
