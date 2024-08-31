@@ -112,3 +112,10 @@ https://github.com/paul-gauthier/aider
 
 - [ ] Get a good reliable local LLM
 - [ ] Get it to work well with [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter)
+
+---
+
+For codebase maintenance AI, can a set of application 's features and tests act alltogether as a desired app state to be maintained, when updating all dependencies?
+
+E.g., newer versions of the framework become available, tooling, ways and options for generation of the apps and other entities (unit test runners, e2e, etc)., so that the core desired functionality is preserved? Including (with a possible opt out?) visual regression tests (the visual state of the app, it's components), e2e flows, unit tests, etc?
+
