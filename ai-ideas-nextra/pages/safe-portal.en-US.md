@@ -1,4 +1,4 @@
-# Safe portal
+# SAFe portal
 
 Create a single open source tool with GUI that would make it easy to plan and execute an enterprise according to [SAFe](https://scaledagileframework.com/#full).
 
