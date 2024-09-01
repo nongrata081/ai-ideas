@@ -1,0 +1,15 @@
+# Personas
+
+- [Epic Owner](https://scaledagileframework.com/epic-owner/)
+- [Enterprise Architect](https://scaledagileframework.com/enterprise-architect/)
+- [Solution Manager](https://scaledagileframework.com/solution-management/)
+- [Solution Architect](https://scaledagileframework.com/solution-architect/)
+- [Solution Train Engineer](https://scaledagileframework.com/solution-train-engineer/)
+- [Business Owner](https://scaledagileframework.com/business-owners/)
+- [Product Manager](https://scaledagileframework.com/product-management/)
+- [System Architect](https://scaledagileframework.com/system-architect/)
+- [Release Train Engineer](https://scaledagileframework.com/release-train-engineer/)
+- [Agile team](https://scaledagileframework.com/agile-teams/)
+    - [Product Owner](https://scaledagileframework.com/product-owner/)
+    - [Developer](https://scaledagileframework.com/agile-teams/)
+    - [Scrum Master](https://scaledagileframework.com/scrum-master-team-coach/)
