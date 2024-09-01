@@ -60,6 +60,7 @@ Data pipeline flow
 
 Agentic frameworks
 
+- [agency-swarm](https://github.com/VRSEN/agency-swarm)
 - [crewai](https://www.crewai.com/)
   - [crewAI github](https://github.com/crewAIInc/crewAI)
 - [langchain](https://github.com/langchain-ai/langchain)

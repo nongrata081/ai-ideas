@@ -1,7 +1,8 @@
 {
   "index": "AI Ideas",
-  "ai-university": "AI University",
+  "safe-portal": "SAFe portal",
   "ai-vision": "AI Vision",
+  "ai-safety": "AI Safety",
   "codebase-maintainer-ai": "Codebase maintainer AI",
   "commit-verifiable-changes": "Commit verifiable changes",
   "data-enabler": "Data Enabler",
@@ -10,7 +11,7 @@
   "future-jobs": "Future jobs",
   "generate-sites": "Generate sites",
   "org-wide-chat": "Org-wide chat",
-  "safe-portal": "SAFe portal",
+  "ai-university": "AI University",
   "about": {
     "title": "About",
     "type": "page"
