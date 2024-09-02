@@ -1,9 +1,10 @@
 {
   "index": "AI Ideas",
-  "safe-portal": "SAFe portal",
-  "enterprise-helper": "Enterprise helper",
   "ai-vision": "AI Vision",
   "ai-safety": "AI Safety",
+  "ai-tools": "AI Tools",
+  "safe-portal": "SAFe portal",
+  "enterprise-helper": "Enterprise helper",
   "codebase-maintainer-ai": "Codebase maintainer AI",
   "commit-verifiable-changes": "Commit verifiable changes",
   "data-enabler": "Data Enabler",
