@@ -33,6 +33,7 @@ This requires a new approach and mindset as for the data. In the AI age availibi
     - [milesight.com](https://www.milesight.com/)
     - [eufy.com](https://www.eufy.com/eufy-security)
   - open-source tools
+    - [frigate](https://github.com/blakeblackshear/frigate)
 
 ## Conclusions
 
