@@ -36,6 +36,13 @@ Build something minimal with LLM + agent. Say, for Strategic themes. Possible fe
 
 ## Examples (Chat with docs)
 
+- [LangChain’s Harrison Chase on Building the Orchestration Layer for AI Agents | Training Data](https://www.youtube.com/watch?v=6XZLoW0-mPY)
+
+- [How to Build a Domain Expert Chatbot Using Langchain & MindsDB | Harrison Chase & Patricio Mardini](https://www.youtube.com/watch?v=QrIEoexbtDo)
+
+- [The RIGHT WAY To Build AI Agents with CrewAI (BONUS: 100% Local)](https://youtu.be/iJjSjmZnNlI?si=D6ngsleZp21WQy2Y)
+- [Let's Build: Automate ANYTHING With AI Agent Teams (Step-by-Step)](https://www.youtube.com/watch?v=8R7QOJgGyIQ)
+
 - [PrivateGPT 2.0 - FULLY LOCAL Chat With Docs (PDF, TXT, HTML, PPTX, DOCX, and more)](https://youtu.be/XFiof0V3nhA?si=Itj4QO92Rd1fYUGS)
 - [Graph RAG UI: Powerful Chat with your Docs!](https://www.youtube.com/watch?v=eynb_QUzYJE)
 - [AnythingLLM Cloud: Fully LOCAL Chat With Docs (PDF, TXT, HTML, PPTX, DOCX, and more)](https://youtu.be/SP-Y_9OEaFg?si=2pA7UJPxdoso2PD4)
