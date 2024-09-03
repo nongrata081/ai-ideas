@@ -1,0 +1,7 @@
+# Agentic versus non-agentic AI chatbots
+
+AI chatbots use conversational AI techniques such as natural language processing (NLP) to **understand user questions** and **automate responses** to them. These chatbots are a modality whereas agency is a technological framework.
+
+**Non-agentic AI** chatbots are ones **without** available **tools, memory and reasoning**. They can only reach **short-term goals** and **cannot plan** ahead. As we know them, non-agentic chatbots **require continuous user input** to respond. They can **produce responses** to **common prompts** that most likely align with user expectations but **perform poorly** on questions unique to the user and their data. Since these chatbots do not hold memory, they **cannot learn from** their **mistakes** if their **responses** are **unsatisfactory**.
+
+In contrast, agentic AI chatbots **learn to adapt to user expectations** over time, providing a more **personalized experience** and **comprehensive responses**. They can complete complex tasks by **creating subtasks** without human intervention and **considering different plans**. These **plans** can also be **self-corrected** and updated as needed. Agentic AI chatbots, unlike non-agentic ones, **assess their tools** and **use** their available **resources** **to fill in** information **gaps**. 
