@@ -31,8 +31,19 @@ Build something minimal with LLM + agent. Say, for Strategic themes. Possible fe
     - [Drizzle ORM](https://orm.drizzle.team/)
     - [postgresql](https://www.postgresql.org/) + [pgvector](https://github.com/pgvector/pgvector)
     - 
-- [haystack](https://haystack.deepset.ai/) ?
+- [haystack](https://haystack.deepset.ai/) / [mindsdb](https://mindsdb.com/) ?
     - [haystack github](https://github.com/deepset-ai/haystack)
+    - [mindsdb github](https://github.com/mindsdb/mindsdb)
+
+- [firecrawl](https://github.com/mendableai/firecrawl) or an opensource alternative? custom solution?
+
+## Examples
+
+Train Local LLM with your own data
+- ["I want Llama3 to perform 10x with my private knowledge" - Local Agentic RAG w/ llama3](https://www.youtube.com/watch?v=u5Vcrwpzoz8)
+
+Build chatbot with AI framework (minds db)
+- [How to Build a Domain Expert Chatbot Using Langchain & MindsDB | Harrison Chase & Patricio Mardini](https://www.youtube.com/watch?v=QrIEoexbtDo)
 
 ## Examples (Chat with docs)
 

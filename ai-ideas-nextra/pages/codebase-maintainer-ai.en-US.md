@@ -1,5 +1,11 @@
 # Codebase Maintainer AI
 
+[depshub](https://depshub.com/) 
+
+what about open-source? quite sure it can become a built-in github feature one day. A matter of time.
+
+---
+
 Any software codebase, once written, gets deprecated and broken with time, due to updates to the underlying dependency layers.
 
 Wouldn't it be nice to not have this problem? And have an AI that would maintain the codebase in a properly working condition by:
