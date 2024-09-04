@@ -1,5 +1,12 @@
 # AI agents
 
+### TODO:
+
+- [ ] [What are foundation models?](https://research.ibm.com/blog/what-are-foundation-models)
+- [ ] [What is deep learning?](https://www.ibm.com/topics/deep-learning)
+- [ ] [What is generative AI?](https://www.ibm.com/topics/generative-ai)
+- [ ] [What is intelligent automation?](https://www.ibm.com/topics/intelligent-automation)
+
 ## What are AI agents?
 
 - [Wiki: Intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent)

@@ -10,7 +10,7 @@ If the agent encounters a **situation** that it is **not prepared for**, it **ca
 
 **Example**: A thermostat that turns on the heating system at a set time every night. The condition-action rule here is, for instance, if it is 8 PM, then the heating is activated.
 
-![](./simple-reflex-agent.png)
+![](./img/simple-reflex-agent.png)
 Simple reflex agent diagram
 
 ## 2. Model-based reflex agents
@@ -26,7 +26,7 @@ These agents, unlike simple reflex agents, can **store information in memory** a
 
 **Example**: A robot vacuum cleaner. As it cleans a dirty room, it senses obstacles such as furniture and adjusts around them. The robot also stores a model of the areas it has already cleaned to not get stuck in a loop of repeated cleaning.
 
-![](./model-based-reflex-agent.png)
+![](./img/model-based-reflex-agent.png)
 Model-based reflex agent diagram
 
 ## 3. Goal-based agents
@@ -35,7 +35,8 @@ Goal-based agents have an **internal model of the world** and also a goal or **s
 
 **Example**: A navigation system that recommends the fastest route to your destination. The model considers various routes that reach your destination, or in other words, your goal. In this example, the agent’s condition-action rule states that if a quicker route is found, the agent recommends that one instead.
 
-![](./goal-based-agent.png)
+
+![](./img/goal-based-agent.png)
 Goal-based agent diagram
 
 ## 4. Utility-based agents
@@ -52,7 +53,7 @@ The agent then **selects** the **actions** that **maximize** the expected **util
 
 **Example**: A navigation system that recommends the route to your destination that optimizes fuel efficiency and minimizes the time spent in traffic and the cost of tolls. This agent measures utility through this set of criteria to select the most favorable route.
 
-![](./utility-based-agent.png)
+![](./img/utility-based-agent.png)
 Utility-based agent diagram
 
 ## 5. Learning agents
@@ -66,5 +67,5 @@ Learning agents hold the same capabilities as the other agent types but are uniq
 
 **Example**: Personalized recommendations on e-commerce sites. These agents track user activity and preferences in their memory. This information is used to recommend certain products and services to the user. The cycle repeats each time new recommendations are made. The user’s activity is continuously stored for learning purposes. In doing so, the agent improves its accuracy over time.
 
-![](./learning-agent.png)
+![](./img/learning-agent.png)
 Learning agent diagram
