@@ -20,8 +20,8 @@ Having clarity on these questions would help find out, if this entire agentic wo
 
 Is an agent just a prompt, that is being sent to an LLM?
 
-![](./agents-yaml.png)
+![](./img/agents-yaml.png)
 
 Are tasks also just prompts, sent to an LLM?
 
-![](./tasks-yaml.png)
+![](./img/tasks-yaml.png)

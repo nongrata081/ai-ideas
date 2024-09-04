@@ -6,15 +6,6 @@
   "ai-agents": "AI Agents",
   "safe-portal": "SAFe portal",
   "enterprise-helper": "Enterprise helper",
-  "codebase-maintainer-ai": "Codebase maintainer AI",
-  "commit-verifiable-changes": "Commit verifiable changes",
-  "data-enabler": "Data Enabler",
-  "economics-of-ai": "Economics of AI",
-  "future-companies": "Future companies",
-  "future-jobs": "Future jobs",
-  "generate-sites": "Generate sites",
-  "org-wide-chat": "Org-wide chat",
-  "ai-university": "AI University",
   "about": {
     "title": "About",
     "type": "page"

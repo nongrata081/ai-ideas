@@ -37,4 +37,4 @@
 ---
 
 What about these tools? Should I consider those? Or at least study more to explore?
-![](./1.bbc5312f.png)
+![](./img/1.bbc5312f.png)

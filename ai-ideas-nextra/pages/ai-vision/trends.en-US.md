@@ -14,8 +14,8 @@ Take [deepwisdom](https://www.deepwisdom.ai/) as an example. First AI Software C
 
 Agentic Frameworks flow
 
-![](./agentic-framework-flow.png)
+![](./img/agentic-framework-flow.png)
 
 Data pipeline flow
 
-![](./data-pipeline-flow.png)
+![](./img/data-pipeline-flow.png)
