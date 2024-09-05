@@ -20,8 +20,13 @@
     - [A Few Repositories (or other OSS examples) using DSPy](https://dspy-docs.vercel.app/docs/dspy-usecases#a-few-repositories-or-other-oss-examples-using-dspy)
     - [A Few Blogs & Videos on using DSPy](https://dspy-docs.vercel.app/docs/dspy-usecases#a-few-blogs--videos-on-using-dspy)
 
+
+## Videos
+
 - [Omar Khattab, DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://www.youtube.com/watch?v=Dt3H2ninoeY)
+- [DSPy and ColBERT with Omar Khattab! - Weaviate Podcast #85](https://www.youtube.com/watch?v=CDung1LnLbY)
 - [MIPRO and DSPy with Krista Opsahl-Ong! - Weaviate Podcast #103](https://www.youtube.com/watch?v=skMH3DOV_UQ)
+- [Harrison Chase: Optimization of LLM Systems with DSPy and LangChain/LangSmith](https://www.youtube.com/watch?v=4EXOmWeqXRc)
 
 ---
 

@@ -26,3 +26,11 @@
 ## Langgraph studio
 
 - [langgraph-studio](https://github.com/langchain-ai/langgraph-studio)
+
+---
+
+- [LangChain JS Tutorial](https://www.youtube.com/playlist?list=PL4HikwTaYE0EG379sViZZ6QsFMjJ5Lfwj)
+    - LLM Chains and Prompt Templates
+    - Chat History
+    - Self-reasoning with tools
+    - Long-term conversation memory
