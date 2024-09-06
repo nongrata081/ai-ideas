@@ -1,6 +1,16 @@
 # Self improvement
 
+## DSPy
+
+- [Prompt Engineering is Dead; Build LLM Applications with DSPy Framework](https://www.youtube.com/watch?v=D2HurSldDkE)
 - [DSPY: COMPILING DECLARATIVE LANGUAGE MODEL CALLS INTO SELF-IMPROVING PIPELINES](https://arxiv.org/pdf/2310.03714)
+- [Prompt Like a Pro Using DSPy: A Guide to Build a Better Local RAG Model using DSPy, Qdrant, and Ollama](https://pub.towardsai.net/prompt-like-a-pro-using-dspy-a-guide-to-build-a-better-local-rag-model-using-dspy-qdrant-and-d8011a3942d9)
+- [towardsai](https://pub.towardsai.net/)
+- [Sachin Khandewal](https://github.com/sachink1729)
+    - github repo, AI articles, DSPy examples
+        - [DSPy-Chain-of-Thought-RAG](https://github.com/sachink1729/DSPy-Chain-of-Thought-RAG)
+        - [DSPy-Multi-Hop-Chain-of-Thought-RAG](https://github.com/sachink1729/DSPy-Multi-Hop-Chain-of-Thought-RAG)
+    - [linkedin](https://www.linkedin.com/in/sachink1729/recent-activity/all/)
 
 ---
 
