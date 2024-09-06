@@ -1,5 +1,9 @@
 # Self improvement
 
+- [DSPY: COMPILING DECLARATIVE LANGUAGE MODEL CALLS INTO SELF-IMPROVING PIPELINES](https://arxiv.org/pdf/2310.03714)
+
+---
+
 - [No Such Thing as a General Learner: Language models and their dual optimization](https://arxiv.org/abs/2408.09544)
 - [In-Context Learning with Long-Context Models: An In-Depth Exploration](https://arxiv.org/abs/2405.00200)
 
