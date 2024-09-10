@@ -47,3 +47,12 @@ https://allenai.org/multimodal-models
 
 - [VisProg](https://prior.allenai.org/projects/visprog)
     - A modular and interpretable neuro-symbolic vision system that can decompose natural language instructions into a sequence of steps and then use existing pretrained neural models, image processing subroutines, or arithmetic and logical operations to execute these steps.
+
+https://allenai.org/language-models
+
+https://allenai.org/olmo
+
+https://huggingface.co/collections/allenai/tulu-v25-suite-66676520fd578080e126f618
+
+---
+
