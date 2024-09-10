@@ -1,5 +1,13 @@
 # Vector databases
 
+## JavaScript Vector Database
+
+- [Local-First Vector Database with RxDB and transformers.js](https://rxdb.info/articles/javascript-vector-database.html)
+- [Local First / Offline First](https://rxdb.info/offline-first.html)
+- [Downsides of Local First / Offline First](https://rxdb.info/downsides-of-offline-first.html)
+- [pubkey/rxdb](https://github.com/pubkey/rxdb) github
+
+---
 - [Top Truly Free and Open Source Vector Databases 2024](https://medium.com/@francesco.cozzolino/top-truly-free-and-open-source-vector-databases-2024-72d179e84277)
 - [The Top 5 Vector Databases](https://www.datacamp.com/blog/the-top-5-vector-databases)
 - [Best 16 Vector Databases for 2024 [Top Picks]](https://lakefs.io/blog/12-vector-databases-2023/)
