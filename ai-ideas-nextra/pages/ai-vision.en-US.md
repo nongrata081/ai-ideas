@@ -1,5 +1,9 @@
 # AI vision
 
+- [ ] **Revisit all new added pages** and add references to all entities relevant to **updated AI Vision**
+
+---
+
 Extract & structure data from:
 
 - [Roman Yampolskiy: Dangers of Superintelligent AI](https://youtu.be/NNr6gPelJ3E)
