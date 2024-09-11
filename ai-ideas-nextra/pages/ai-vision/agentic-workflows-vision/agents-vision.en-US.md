@@ -1,5 +1,8 @@
 # Agents vision
 
+
+- [ ] Update with content from [discovery-agents](/ai-agents/discovery-agents)
+
 ## High level definition
 
 AI Agent is a computer program, that uses conversational AI techniques (natural language processing (NLP)) to understand user questions and automate responses to them.
@@ -10,7 +13,7 @@ Can complete complex tasks by creating subtasks without human intervention and c
 
 ---
 
-AI agent
+### AI agent
 - capability of autonomously performing **tasks**
 - on behalf of a **user**
 - or another **system**

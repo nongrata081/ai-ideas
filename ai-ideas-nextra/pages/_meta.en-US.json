@@ -1,13 +1,14 @@
 {
-  "dspy": "DSPy",
   "index": "Homepage",
-  "ai-ideas": "AI Ideas",
+  "dspy": "DSPy",
   "ai-vision": "AI Vision",
+  "ai-news": "AI News",
   "ai-safety": "AI Safety",
   "ai-tools": "AI Tools",
   "ai-agents": "AI Agents",
   "safe-portal": "SAFe portal",
   "enterprise-helper": "Enterprise helper",
+  "ai-ideas": "AI Ideas",
   "about": {
     "title": "About",
     "type": "page"

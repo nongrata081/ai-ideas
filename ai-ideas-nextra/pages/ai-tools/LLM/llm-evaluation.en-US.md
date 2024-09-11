@@ -1,5 +1,9 @@
 # Evaluation
 
+- [Digital Socrates: Evaluating LLMs through Explanation Critiques](https://blog.allenai.org/digital-socrates-evaluating-llms-through-explanation-critiques-12f0bed7fb7a)
+
+---
+
 [allenai.org/evaluation-frameworks](https://allenai.org/evaluation-frameworks)
 [allenai.org/olmo](https://allenai.org/olmo)
 
