@@ -15,15 +15,6 @@ https://allenai.org/olmo
     - Read the OLMo paper to learn more.
         - [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838)
 
-
-
-- [Tulu](https://allenai.org/olmo)
-    - Tulu is a suite of models and datasets for fine-tuning state-of-the-art language models. Drawing on the latest open datasets, Tulu models and recipes aid models with instruction-following, reasoning, and coding abilities. The Tulu suite includes models of many sizes, from 7B to 70B parameters, trained with everything from Direct Preference Optimization (DPO) to Proximal Policy Optimization (PPO). We take the lessons from the Tulu models and add them to the OLMo models to make OLMo Instruct, which are available for download on the Hugging Face Hub.
-    - paper [How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources](https://arxiv.org/abs/2306.04751)
-    - paper 2 [Camels in a Changing Climate: Enhancing LM Adaptation with Tulu 2](https://arxiv.org/abs/2311.10702)
-    - github [open-instruct](https://github.com/allenai/open-instruct)
-        - This repo serves as an open effort on instruction-tuning popular pretrained language models on publicly available datasets.
-
 ---
 
 - [k2-train](https://github.com/LLM360/k2-train)
