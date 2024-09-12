@@ -1,5 +1,42 @@
 # Fine Tuning
 
+## torchtune
+
+- [torchtune](https://github.com/pytorch/torchtune)
+    - A Native-PyTorch Library for LLM Fine-tuning
+    - [pytorch.org/torchtune/main/](https://pytorch.org/torchtune/main/)
+    - torchtune is a PyTorch-native library for easily authoring, fine-tuning and experimenting with LLMs. We're excited to announce our alpha release!
+    - torchtune provides:
+        - Native-PyTorch implementations of popular LLMs using composable and modular building blocks
+        - Easy-to-use and hackable training recipes for popular fine-tuning techniques (LoRA, QLoRA) - no trainers, no frameworks, just PyTorch!
+        - YAML configs for easily configuring training, evaluation, quantization or inference recipes
+        - Built-in support for many popular dataset formats and prompt templates to help you quickly get started with training
+    - torchtune focuses on integrating with popular tools and libraries from the ecosystem. These are just a few examples, with more under development:
+        - Hugging Face Hub for accessing model weights
+        - EleutherAI's LM Eval Harness for evaluating trained models
+        - Hugging Face Datasets for access to training and evaluation datasets
+        - PyTorch FSDP for distributed training
+        torchao for lower precision dtypes and post-training quantization techniques
+        - Weights & Biases for logging metrics and checkpoints, and tracking training progress
+        - Comet as another option for logging
+        - ExecuTorch for on-device inference using fine-tuned models
+        - bitsandbytes for low memory optimizers for our single-device recipes
+
+## trlx
+
+- [CarperAI/trlx](https://github.com/CarperAI/trlx)
+    - A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF)
+    - trlX is a distributed training framework designed from the ground up to focus on fine-tuning large language models with reinforcement learning using either a provided reward function or a reward-labeled dataset.
+    - Training support for 🤗 Hugging Face models is provided by Accelerate-backed trainers, allowing users to fine-tune causal and T5-based language models of up to 20B parameters, such as facebook/opt-6.7b, EleutherAI/gpt-neox-20b, and google/flan-t5-xxl. For models beyond 20B parameters, trlX provides NVIDIA NeMo-backed trainers that leverage efficient parallelism techniques to scale effectively.
+    - [paper](https://arxiv.org/pdf/1909.08593)
+    - [Offline RL for Natural Language Generation with Implicit Language Q Learning](https://sea-snell.github.io/ILQL_site/)
+        - [code](https://github.com/Sea-Snell/Implicit-Language-Q-Learning)
+    - Large language models distill broad knowledge from text corpora. However, they can be **inconsistent** when it comes to completing user specified tasks. This issue can be addressed by finetuning such models via **supervised learning** on **curated datasets**, or via **reinforcement learning**. In this work, we propose a novel **offline RL** method, **implicit language Q-learning (ILQL)**, designed for use on language models, that combines both the flexible utility maximization framework of RL algorithms with the ability of supervised learning to leverage previously collected data, as well as its simplicity and stability. Our method employs a combination of value conservatism alongside an implicit dataset support constraint in learning value functions, which are then used to guide language model generations towards maximizing user-specified utility functions. In addition to empirically validating ILQL, we present a detailed empirical analysis of situations where offline RL can be useful in natural language generation settings, demonstrating how it can be a more effective utility optimizer than prior approaches for end-to-end dialogue, and how it can effectively **optimize high variance reward functions based on subjective judgement**, such as whether to **label a comment as toxic or not**.
+    - [trlX: A Framework for Large Scale Reinforcement Learning from Human Feedback](https://aclanthology.org/2023.emnlp-main.530/)
+        - Algorithms
+            - Proximal Policy Optimization (PPO) [Fine-Tuning Language Models from Human Preferences](https://arxiv.org/pdf/1909.08593)
+            - [Implicit Language Q-Learning (ILQL)](https://sea-snell.github.io/ILQL_site/)
+
 ## Tulu
 
 [Tulu](https://allenai.org/olmo)

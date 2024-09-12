@@ -1,5 +1,7 @@
 # AllenAI Models
 
+- YouTube [PyTorch Expert Exchange: Adapting open source models with Open-Instruct and Tulu](https://www.youtube.com/watch?v=e1qUJFAo10s)
+
 ## allenai 
 
 [allenai.org/language-models](https://allenai.org/language-models)

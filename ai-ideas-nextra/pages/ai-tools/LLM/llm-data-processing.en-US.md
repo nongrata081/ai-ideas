@@ -1,5 +1,26 @@
 # LLM Data Processing
 
+## Data protection
+
+### Presidio
+
+Presidio - Data Protection and De-identification SDK
+Context aware, pluggable and customizable PII de-identification service for text and images.
+
+https://github.com/microsoft/presidio
+
+Presidio (Origin from Latin praesidium ‘protection, garrison’) helps to ensure sensitive data is properly managed and governed. It provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, social security numbers, bitcoin wallets, US phone numbers, financial data and more.
+
+https://microsoft.github.io/presidio/
+
+## Data preparation
+
+https://github.com/bigscience-workshop/data-preparation
+
+Code used for sourcing and cleaning the BigScience ROOTS corpus
+
+https://bigscience.huggingface.co/
+
 ## Data processing in Dolma
 
 - [ ] Extract useful stuff from [/datasets/dolma](/datasets/dolma)
