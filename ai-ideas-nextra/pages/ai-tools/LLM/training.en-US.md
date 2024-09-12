@@ -1,5 +1,32 @@
 # LLM Training
 
+## composer
+https://github.com/mosaicml/composer
+
+Composer is an open-source deep learning training library by MosaicML. Built on top of PyTorch, the Composer library makes it easier to implement distributed training workflows on large-scale clusters.
+
+We built Composer to be optimized for scalability and usability, integrating best practices for efficient, multi-node training. By abstracting away low-level complexities like parallelism techniques, distributed data loading, and memory optimization, you can focus on training modern ML models and running experiments without slowing down.
+
+We recommend using Composer to speedup your experimentation workflow if you’re training neural networks of any size, including:
+
+Large Language Models (LLMs)
+Diffusion models
+Embedding models (e.g. BERT)
+Transformer-based models
+Convolutional Neural Networks (CNNs)
+
+https://docs.mosaicml.com/en/latest/
+
+## gpt-neox
+
+https://github.com/EleutherAI/gpt-neox
+
+This repository records EleutherAI's library for **training large-scale language models** on GPUs. Our current framework is based on NVIDIA's Megatron Language Model and has been augmented with techniques from DeepSpeed as well as some novel optimizations. We aim to make this repo a centralized and accessible place to gather techniques for training large-scale autoregressive language models, and accelerate research into large-scale training. This library is in widespread use in academic, industry, and government labs, including by researchers at Oak Ridge National Lab, CarperAI, Stability AI, Together.ai, Korea University, Carnegie Mellon University, and the University of Tokyo among others. Uniquely among similar libraries GPT-NeoX supports a wide variety of systems and hardwares, including launching via Slurm, MPI, and the IBM Job Step Manager, and has been run at scale on AWS, CoreWeave, ORNL Summit, ORNL Frontier, LUMI, and others.
+
+**If you are not looking to train models with billions of parameters from scratch, this is likely the wrong library to use. For generic inference needs, we recommend you use the Hugging Face transformers library instead which supports GPT-NeoX models.**
+
+## Transformers
+
 https://github.com/huggingface/transformers
 
 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
