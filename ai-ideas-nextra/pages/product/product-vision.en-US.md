@@ -1,5 +1,16 @@
 # Product Vision
 
+---
+
+- [ ] What frontend(s) should the product have? I can build it (or some of its parts?) with:
+    - nextjs as a **web-app**
+    - electron as a **desktop-app**
+    - native mobile app
+        - iOS
+        - android
+
+---
+
 - **Start with frontend**
     - In terms of building the product, it seems that the approach of **starting with the frontend** is the simplest, fastest and most efficient way to go further. Because then the actual product can be seen and (to some extent) experienced right away.
 - **Dive into details as needed**
