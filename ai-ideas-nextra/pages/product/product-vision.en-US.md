@@ -2,6 +2,21 @@
 
 ---
 
+## Responsible AI
+
+SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). My vision is just **implement all evaluation types** that are possible in **programmatic way** with LMs and AI Agents. So that any developer of an AI tool can: 
+
+- see the benchmark dashboard in real time with a report with all evals based on studying his data and code, processes with LMs and outlines of mistakes
+- & recommendations of how to fix them
+- & one-click implementation of fixes (like with code linting errors)
+- & risks or law violations, etc.
+
+Make entire SAFe & Responsible AI thing just a program, which is easy to run locally for your project. Functional enough to provide real value to developers of AI. Fast enough to be performant. 
+
+---
+
+## Frontend
+
 - [ ] What frontend(s) should the product have? I can build it (or some of its parts?) with:
     - nextjs as a **web-app**
     - electron as a **desktop-app**
@@ -10,6 +25,8 @@
         - android
 
 ---
+
+## Product
 
 - **Start with frontend**
     - In terms of building the product, it seems that the approach of **starting with the frontend** is the simplest, fastest and most efficient way to go further. Because then the actual product can be seen and (to some extent) experienced right away.

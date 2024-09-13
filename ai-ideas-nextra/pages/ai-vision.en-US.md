@@ -1,5 +1,10 @@
 # AI vision
 
+- Extract useful stuff from [safe ai](https://scaledagileframework.com/ai/) like
+    - MLOps
+    - DataOps
+    - etc. (imagine all this scaffolded locally with best practice, guidance, real-time monitoring, etc.)
+- https://scaledagileframework.com/introduction-to-artificial-intelligence-ai/
 - [ ] **Revisit all new added pages** and add references to all entities relevant to **updated AI Vision**
     - [ ] adopt all the best practices from AllenAI, for evals and everything
     - Understand & extract stuff from video with them

@@ -1,5 +1,7 @@
 # Evaluation
 
+- [ ] add [evals from o1](https://www.nextbigfuture.com/2024/09/openai-o1-model-sets-new-math-and-complex-reasoning-records.html)
+
 - [Digital Socrates: Evaluating LLMs through Explanation Critiques](https://blog.allenai.org/digital-socrates-evaluating-llms-through-explanation-critiques-12f0bed7fb7a)
 
 ---
