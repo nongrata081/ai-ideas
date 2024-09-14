@@ -1,5 +1,15 @@
 # TechStack
 
+It is possible to build desktop apps with:
+- Rust+Tauri+JS(Next.js) 
+- Electron
+
+
+what about Tauri + Nx ?
+Nx + Rust?
+
+---
+
 - Agentic framework
     - Langchain python
         - platform

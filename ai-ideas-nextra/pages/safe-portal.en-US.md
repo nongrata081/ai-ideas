@@ -1,5 +1,25 @@
 # SAFe portal
 
+Latest ideas:
+
+Inspect the entire user's codebase (e.g. an AI app, with data, ml, etc.), identify what a developer is trying to achieve, verify against best practice (or entire SAFe framework), and provide feedback (dashboard, render errors, suggest fixes).
+
+Start agents locally to perform the job? :)
+
+1. Scan repo
+2. Identify developer's intent
+3. Suggest implementation / improvement 
+4. Implement (with agents?)
+
+Or imagine from 1 OKR:
+
+- Planning series of releases
+- breakdown with details according to SAFe (as detailed as possible)
+- implement (develop, with tests, etc)
+- run locally
+
+---
+
 Create a single open source tool with GUI that would make it easy to plan and execute an enterprise according to [SAFe](https://scaledagileframework.com/#full).
 
 ## Key ideas:
