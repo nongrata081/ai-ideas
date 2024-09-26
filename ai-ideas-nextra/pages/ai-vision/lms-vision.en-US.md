@@ -1,5 +1,19 @@
 # LMs Vision
 
+- [ ] Extract papers & vision about small LMs from YT Video [How to Make Small Language Models Work. Yejin Choi Presents at Data + AI Summit 2024](https://www.youtube.com/watch?v=OBkMbPpLCqw)
+
+![](./img/small-lms-1.png)
+...
+![](./img/small-lms-2.png)
+...
+![](./img/small-lms-3.png)
+...
+![](./img/small-lms-4.png)
+...
+![](./img/small-lms-5.png)
+
+---
+
 - **Multiple LMs** for **different purposes** in the product.
     - Consider supporting different LMs (based on the domain of the Enterprise and on the benchmark results of LMs) and scaffolding them and running locally for the SAFe Portal, e.g. models for 
         - medical domain, 
