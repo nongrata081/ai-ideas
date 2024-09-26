@@ -1,5 +1,13 @@
 # POC #1
 
+[Strategic Themes Prototype](/product/entities/strategic-themes):
+
+- Nx + next.js + MUI + Vercel AI SDK
+- Ollama + Llama 3.1-8B
+- Drawer (SAFe, Knowledge base, Ticket system)
+- Main page area (Strategic Themes, OKRs)
+- Chat area (open-webui like chat interface)
+
 ## Strategic Themes + Chat with docs
 
 Build something minimal with LLM + agent. Say, for Strategic themes. Possible features:

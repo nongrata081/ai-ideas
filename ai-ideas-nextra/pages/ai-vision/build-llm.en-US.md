@@ -31,3 +31,20 @@ What is the vision about it?
 ## Enhance an LLM with own data
 
 ...
+
+## LMs capabilities
+
+### Reasoning
+
+On terms of reasoning, it would be nice to train an LLM all of the best-practices in reasoning, that are natural for myself, but are absent in LLMs I use. Make a list of reasoning best practices or nice-to-haves, and add things to it as they pop up in the dev & testing process. The downsides of LM reasoning became obvious once I [tried generating SAFe entities with Llama 3.1 8B]() (did well for Strategic themes & OKRs, not so well for Portfolio Canvas). There was a lot of repetition. 
+
+- [ ] Try generating again with Llama 3.2
+    - define best in-context prompt for best results
+    - define reasoning downsides
+    - define possible reasoning improvements
+
+---
+
+There is a lot of flaws that I see in the current model's reasoning. I also see a lot of possible improvements. Which makes sense to try to implement step-by-step.
+
+It might be a good idea to play with prompts a little bit, to see if and how I can get the best possible results without changing the model itself. And then verifying, what those results could be. E.g., if with in-context prompts results are satisfactory, maybe I can build something right away.
