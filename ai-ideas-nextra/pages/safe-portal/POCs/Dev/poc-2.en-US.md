@@ -1,4 +1,4 @@
-# POC 2
+# Dev POC 2
 
 - [Why your ChatBot is stupid - Focus on the important parts! - The ultimative RAG-Tierlist](https://www.youtube.com/watch?v=OgwFdEsGmrQ)
 

@@ -48,3 +48,9 @@ On terms of reasoning, it would be nice to train an LLM all of the best-practice
 There is a lot of flaws that I see in the current model's reasoning. I also see a lot of possible improvements. Which makes sense to try to implement step-by-step.
 
 It might be a good idea to play with prompts a little bit, to see if and how I can get the best possible results without changing the model itself. And then verifying, what those results could be. E.g., if with in-context prompts results are satisfactory, maybe I can build something right away.
+
+---
+
+## Random ideas
+
+Current SOTA coding models, like DeepSeekV2 - what data are they trained on? Is the dataset annotated well ? Is it of the highest quality? Imagine a dataset of all GitHub open-source codebases, perfectly annotated, where every LOC (line of code) is properly labelled. Also, where certain blocks of functionality are labeled. Like, implemented entities (e.g. drawer, appbar, etc.). Does it help to beld better fine-tuned models? With higher accuracy rate for code generation ? Also, imagine generating sintetic data of highest quality for such training. What would it be and cost in time & effort? What would it allow to achieve? 

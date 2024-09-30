@@ -4,6 +4,8 @@
 
 - Develop a standard for data sources (websites? APIs? Whoever it be?) to expose the data for crawling for AI. (There is a need for real-time retrieval of actual data, on any matter. Would be nice if there is a standard way to obtain this data and a registry of resources that make it available).
 
+https://github.com/BerriAI/litellm ?
+
 ## AI Data Registry
 
 - Should I create such a registry? Is there such already in the market? 

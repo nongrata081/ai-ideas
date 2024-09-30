@@ -1,4 +1,4 @@
-# POC #1
+# Dev POC #1
 
 [Strategic Themes Prototype](/product/entities/strategic-themes):
 

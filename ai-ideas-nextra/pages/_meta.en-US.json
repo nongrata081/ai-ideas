@@ -10,6 +10,10 @@
   "safe-portal": "SAFe portal",
   "enterprise-helper": "Enterprise helper",
   "ai-ideas": "AI Ideas",
+  "mission": {
+    "title": "Mission",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"

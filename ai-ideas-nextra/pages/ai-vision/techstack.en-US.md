@@ -40,3 +40,12 @@ Nx + Rust?
 
 - Self-refine
     - DSPy (?)
+
+---
+
+## Actual stack for next.js app
+
+- Node v20.17.0
+- npm v10.8.2
+- bun v1.0.35
+- nx v19.8.2

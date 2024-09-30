@@ -95,5 +95,10 @@
         "cacheableOperations": ["build-storybook"]
       }
     }
+  },
+  "targetDefaults": {
+    "e2e-ci--**/*": {
+      "dependsOn": ["^build"]
+    }
   }
 }

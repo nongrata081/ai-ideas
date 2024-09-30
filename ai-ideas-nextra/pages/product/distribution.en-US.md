@@ -1,5 +1,18 @@
 # Distribution
 
+- docker
+    - [open-webui example](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
+
+- What about packages? (docker images?)
+    - Use [github packages](https://github.com/features/packages) (?)
+    - https://github.com/orgs/open-webui/packages?repo_name=open-webui
+    - https://github.com/open-webui/open-webui/pkgs/container/open-webui
+
+- What about keeping docker images updated?
+    - https://containrrr.dev/watchtower/
+
+---
+
 How should the product be distributed?
 
 Examples:

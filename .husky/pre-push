@@ -9,7 +9,7 @@ commands=(
     "nx run nextapp-ai-ideas:test"
     "nx run nextapp-ai-ideas:build"
     "nx run nextapp-ai-ideas-e2e:lint"
-    "nx run nextapp-ai-ideas-e2e:e2e-ci"
+    "nx run nextapp-ai-ideas-e2e:e2e"
 )
 
 # Function to execute commands in parallel

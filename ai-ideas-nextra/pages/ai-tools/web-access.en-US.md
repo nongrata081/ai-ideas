@@ -1,5 +1,13 @@
 # Web access
 
+- [Open WebUI-Web Search for Question Answering + RAG on Web](https://www.youtube.com/watch?v=X84loetQFHc) !! example
+- [Run Web Search With DuckDuckGO API In Python (And it's FREE)](https://www.youtube.com/watch?v=W3Dq4LIr6h4)
+- [DuckDuckGo Search (LangChain Docs)](https://python.langchain.com/docs/integrations/tools/ddg/)
+- [Add Web Search Function To Your LangChain LLM Application With Tavily AI](https://www.youtube.com/watch?v=S4oCffFJhVU)
+- [Connect Your LLM App Or RAG To The Web With Real-Time Content With Tavily AI Search API In Python](https://www.youtube.com/watch?v=3mGci9Kd_6I)
+
+---
+
 - [tavily](https://tavily.com/)
     - [tavily github](https://github.com/tavily-ai)
 - [exa](https://exa.ai/)

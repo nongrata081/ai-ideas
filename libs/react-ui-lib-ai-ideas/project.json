@@ -5,5 +5,27 @@
   "projectType": "library",
   "tags": ["scope:shared", "type:ui"],
   "// targets": "to see all targets run: nx show project react-ui-lib-ai-ideas --web",
-  "targets": {}
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/react-ui-lib-ai-ideas/**/*.ts",
+          "libs/react-ui-lib-ai-ideas/**/*.tsx",
+          "libs/react-ui-lib-ai-ideas/**/*.js",
+          "libs/react-ui-lib-ai-ideas/**/*.jsx"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "options": {
+        "testFilePatterns": [
+          "libs/react-ui-lib-ai-ideas/**/*.spec.ts",
+          "libs/react-ui-lib-ai-ideas/**/*.spec.tsx"
+        ],
+        "watch": false
+      }
+    }
+  }
 }
