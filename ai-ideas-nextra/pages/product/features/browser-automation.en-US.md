@@ -1,0 +1,29 @@
+# Browser access & automation
+
+- https://github.com/go-rod/rod
+    - https://pptr.dev/
+        - https://developer.chrome.com/docs/puppeteer
+        - https://github.com/puppeteer
+        - https://github.com/puppeteer/replay
+        - https://github.com/puppeteer/recorder
+            - https://developer.chrome.com/docs/devtools/recorder/
+        - https://github.com/puppeteer/puppeteer
+    - https://github.com/microsoft/playwright ?
+        - [Playwright Python Browser Automation Crash Course | For Beginners](https://www.youtube.com/watch?v=cO997sPYZ9U)
+        - https://playwright.dev/
+            - In the OpenHands project, browser automation is implemented using Playwright, a powerful browser automation tool. The integration allows OpenHands agents to interact with web pages, capturing HTML, CSS, and screenshots, and executing various actions. The browser functionality was added to enable OpenHands agents (like OpenDevin) to browse live websites, collect information, and display it to the user, making it a key feature for real-time web interactions. 
+            - Playwright handles tasks such as opening a browser, visiting target websites, capturing screenshots, and gathering page content, which is then communicated to the frontend. This provides users with both the URL and a visual representation of what the agent is viewing on the website​
+            - https://github.com/All-Hands-AI/OpenHands/issues/138
+            - [github.com/All-Hands-AI/OpenHands/blob/main/agenthub/codeact_agent/__init__.py](https://github.com/All-Hands-AI/OpenHands/blob/main/agenthub/codeact_agent/__init__.py)
+            - how do they implement streaming in realtime of browser activity ?
+                - In the OpenHands project, real-time streaming of browser activity is likely implemented using a combination of WebSockets and Playwright. Here’s how it typically works:
+                - Browser Automation via Playwright: The backend uses Playwright to automate the browser. Playwright can interact with web pages, execute JavaScript, and capture screenshots or DOM changes as they happen. This enables the automation of tasks like navigating pages, clicking elements, and retrieving content.
+                - WebSockets for Real-Time Communication: WebSockets provide a persistent connection between the backend (where Playwright is running) and the frontend (the client that is viewing the session). Through this connection, real-time updates (such as HTML content changes, screenshots, or browser events) can be streamed to the user. As Playwright performs actions in the browser, it sends data back to the server, which then relays it to the client over WebSockets.
+                - Data Streaming: As the browser interacts with a page, important data—such as page content, element updates, or screenshots—can be sent incrementally to the client. This provides the user with a real-time view of what the Playwright-controlled browser is doing. Screenshots or HTML snippets can be transmitted in chunks, allowing for a more responsive experience.
+                - Frontend Rendering: On the client side, JavaScript renders the streamed data (e.g., updating the DOM with new HTML or displaying new screenshots), giving users a live view of the browser's activities.
+                - This method allows for near-instant updates as the browser executes commands, making it possible to monitor or control browser sessions remotely in real-time​(GitHub).
+    - https://github.com/nightwatchjs/nightwatch ?
+        - https://nightwatchjs.org/
+        - https://nightwatchjs.org/guide/overview/what-is-nightwatch.html
+    - https://developer.mozilla.org/en-US/docs/Web/WebDriver
+        - https://webdriver.io/

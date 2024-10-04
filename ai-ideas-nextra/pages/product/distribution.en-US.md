@@ -1,5 +1,26 @@
 # Distribution
 
+## Web Containers
+
+!!!
+
+- https://webcontainers.io/
+    - https://webassembly.org/
+    - https://pglite.dev/
+    - https://pglite.dev/docs/about
+
+## Rust
+
+- [Rust multi platform distribution](./distribution/rust-multi-platform.en-US.md)
+
+## Distribution options
+
+- app packaged with the model
+- app without the model (if user has ollama and runs it locally)
+    - provide an option to use custom model (set path to model)
+
+---
+
 - docker
     - [open-webui example](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 

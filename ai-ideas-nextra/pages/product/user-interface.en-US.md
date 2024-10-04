@@ -19,22 +19,43 @@ https://mui.com/toolpad/core/react-dashboard-layout/ ?
 
 ## User Interface
 
-### Workflow
+### Step 1. Docs
+- [ ] add "Get Started" button
 
-App usage workflow (for empty page with entities, e.g. strategic themes) (can be general approach for all such pages):
+![](./img/enterprise-helper-step-1-docs.png)
 
-0. Page with empty templates for entities (e.g. strategic themes, portfolio Canvas, user story, etc.)
-1. Detect which entities are on the current screen
-2. In the chat area have buttons to perform actions on entities (generate an entity, suggest to add the generated entity into the actual list (main page area) of entities, apply button, cancel button
+### Step 2. Sign-in
 
-### App UI:
+![](./img/enterprise-helper-step-2-sign-in.png)
 
-- [collapsible] drawer
-- main page area
-- [collapsible] chat area
+### Step 3. App
 
 ![](./img/enterprise-helper-ui.png)
 
 ...
 
 ![](./img/enterprise-helper-ui-collapsed-drawer.png)
+
+- [collapsible] drawer
+- main page area
+- [collapsible] chat area
+
+### Enterprise-helper Workflow
+
+App usage workflow (for empty page with entities, e.g. strategic themes) (can be general approach for all such pages):
+
+0. Page with empty templates for entities (e.g. strategic themes, portfolio Canvas, user story, etc.)
+1. Detect which entities are on the current screen
+2. In the chat area have buttons to perform actions on entities (generate an entity, suggest to add the generated entity into the actual list (main page area) of entities, apply button, cancel button)
+
+---
+
+### Software engineer AI
+
+![](../product/features/software-engineer-ai/img/boltnew-step-1-chatUI.png)
+
+![](../product/features/software-engineer-ai/img/boltnew-step-2-prompt-webcontainer.png)
+
+![](../product/features/software-engineer-ai/img/boltnew-step-3-preview-2.png)
+
+![](../product/features/software-engineer-ai/img/boltnew-step-3-preview.png)

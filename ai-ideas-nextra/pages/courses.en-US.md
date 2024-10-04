@@ -1,4 +1,10 @@
-# AI Courses
+# Courses
+
+## Open-source
+
+- [Become An Open Source Master](https://www.jointaro.com/course/become-an-open-source-master/)
+
+## AI
 
 - [CS224U: Natural Language Understanding](https://web.stanford.edu/class/cs224u/)
 

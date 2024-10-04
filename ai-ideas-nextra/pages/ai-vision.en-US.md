@@ -1,5 +1,25 @@
 # AI vision
 
+## Web-containers & bolt.new
+
+Revolution in AI. bolt.new -like apps will most probably soon take over in every field. Imagine apps with chat with LM on the left-side + web-containerized dev environment on the right side - with an OS and stack of software (Penpot for UI prototyping, Databases and anything else open-source for any kind of work).
+
+Long story told short.
+
+![](./product/features/software-engineer-ai/img/boltnew-step-1-chatUI.png)
+
+![](./product/features/software-engineer-ai/img/boltnew-step-2-prompt-webcontainer.png)
+
+![](./product/features/software-engineer-ai/img/boltnew-step-3-preview.png)
+
+![](./product/features/software-engineer-ai/img/boltnew-step-3-preview-2.png)
+
+https://github.com/stackblitz/bolt.new
+
+https://github.com/stackblitz/bolt.new/blob/main/CONTRIBUTING.md
+
+---
+
 - Extract useful stuff from [safe ai](https://scaledagileframework.com/ai/) like
     - MLOps
     - DataOps

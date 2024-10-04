@@ -1,5 +1,19 @@
 # Build own LLM
 
+- pytorch
+- torchtune
+- torchchat
+
+## Building LLM from scratch:
+
+- [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://www.youtube.com/watch?v=quh7z1q7-uc)
+    - [build-a-large-language-model-from-scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+    - [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) gh
+
+---
+
+...
+
 [linked.in post scikit-llm](https://www.linkedin.com/posts/liorsinclair_just-found-out-about-scikit-llm-sklearn-activity-7238516537513365504-nHCy?utm_source=share&utm_medium=member_desktop)
 
 https://github.com/BeastByteAI
@@ -35,6 +49,8 @@ What is the vision about it?
 ## LMs capabilities
 
 ### Reasoning
+
+> it would be nice to train an LLM all of the best-practices in reasoning, that are natural for myself, but are absent in LLMs
 
 On terms of reasoning, it would be nice to train an LLM all of the best-practices in reasoning, that are natural for myself, but are absent in LLMs I use. Make a list of reasoning best practices or nice-to-haves, and add things to it as they pop up in the dev & testing process. The downsides of LM reasoning became obvious once I [tried generating SAFe entities with Llama 3.1 8B]() (did well for Strategic themes & OKRs, not so well for Portfolio Canvas). There was a lot of repetition. 
 

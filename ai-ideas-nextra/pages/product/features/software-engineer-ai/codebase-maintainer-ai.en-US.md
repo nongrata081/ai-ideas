@@ -1,5 +1,10 @@
 # Codebase Maintainer AI
 
+- an open-source tool with ensuring that the implemented **solution intent** still works fine after updates (dependencies bump, code patches, etc)
+  - Have a page to list all dependencies & their versions used in the project (node version, npm version, etc.)
+
+---
+
 [depshub](https://depshub.com/) 
 
 what about open-source? quite sure it can become a built-in github feature one day. A matter of time.

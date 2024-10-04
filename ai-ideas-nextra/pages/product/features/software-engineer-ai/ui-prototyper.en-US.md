@@ -1,5 +1,9 @@
 # UI Prototyper
 
+- a tool capable of creating UI prototypes (e.g. Figma / Penpot) based on text description / image
+
+---
+
 - Add possibility to create UI-prototypes with MUI & penpot
 
 - a tool capable of creating UI prototypes (e.g. Figma / Penpot) based on text description / image

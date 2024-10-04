@@ -1,5 +1,9 @@
 # AI Techstack planner
 
+- define an optimal techstack for a solution, based on ... (solution intent?)
+
+---
+
 - Given description of a project, define an optimal techstack for it.
 - Research the web
     - Search engines
