@@ -1,5 +1,13 @@
 # Product Vision
 
+> **Suite of tools to facilitate enterprise execution**
+
+---
+
+[Local-first](/product/development/data-persistence#local-first) (easily deployable & [online-ready](/product/development/data-persistence#online-ready)) **suite of tools** including frontends, backends, language models **to facilitate enterprise execution with AI**.
+
+---
+
 ## Responsible AI
 
 SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). My vision is just **implement all evaluation types** that are possible in **programmatic way** with LMs and AI Agents. So that any developer of an AI tool can: 
@@ -9,38 +17,21 @@ SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). M
 - & one-click implementation of fixes (like with code linting errors)
 - & risks or law violations, etc.
 
-Make entire SAFe & Responsible AI thing just a program, which is easy to run locally for your project. Functional enough to provide real value to developers of AI. Fast enough to be performant. 
-
----
-
-## Product development approach
-
-- **Start with frontend**
-    - In terms of building the product, it seems that the approach of **starting with the frontend** is the simplest, fastest and most efficient way to go further. Because then the actual product can be seen and (to some extent) experienced right away.
-- **Dive into details as needed**
-    - there might be a lot of features to implement in LM ecosystem, but it's possible to drown in the amount of data without narrowing down to something. So maybe investing into feature development and research as I face such need is reasonable.
-- One possible approach to development could also be - start with building a simple but well functioning **open-source tool for regular SAFe workflow** (without AI). Then, add AI capabilities to it.
-
-## Product Frontend
-
-- [ ] What frontend(s) should the product have? I can build it (or some of its parts?) with:
-    - nextjs as a **web-app**
-    - electron as a **desktop-app**
-    - native mobile app
-        - iOS
-        - android
-- [ ] update this part with reflections and considerations from latest findings: OpenHands, xterm.js, open-source ticketing system, open-source knowledge-base
-    - what capabilities does web-ui have? is it sufficient for my project goals as of now?
+Make entire SAFe & Responsible AI thing just a program, which is easy to run locally for your project. Functional enough to provide real value to developers of AI. Fast enough to be performant.
 
 ---
 
 ## Solutions / Features
 
-- [Continuous training pipeline](/product/features/continuous-training-pipeline)
+- [nx ai generators](/product/features/nx-ai-generators)
+    - [@nxlv/python](/software-engineering/python-monorepo)
+    - [**bolt.new-like app UI with MUI**](/product/features/software-engineer-ai/software-engineer-ai#opensource) (for opensource community)
+- [**Continuous training pipeline**](/product/features/continuous-training-pipeline)
 - [Flavors](/product/features/flavors)
 - [Knowledge base](/product/features/knowledge-base)
-- [Ticketing system](/product/features/ticketing-system)
+- [Ticket system](/product/features/ticket-system)
 - [software engineer AI](/product/features/software-engineer-ai/software-engineer-ai)
+    - [**bolt.new-like solution**](/product/features/software-engineer-ai/software-engineer-ai#boltnew)
     - [Codebase-maintainer](/product/features/software-engineer-ai/codebase-maintainer-ai)
     - [TechStack-planner](/product/features/software-engineer-ai/ai-techstack-planner)
     - [UI Prototyper](/product/features/software-engineer-ai/ui-prototyper)
@@ -59,8 +50,12 @@ Make entire SAFe & Responsible AI thing just a program, which is easy to run loc
 - [User-input context-builder](/product/features/user-input-context-builder)
 - Prompt templates (?) - Should I use them, to have some context when sending a prompt from web page to the model? (DSPy?). E.g. each entity page to have it's own prompt template, so that there is context when a user prompt for a given entity is sent?
 - **Web-containerize** Enterprise-helper
-- [nx ai generators](/product/features/nx-ai-generators)
-    - [@nxlv/python](/software-engineering/python-monorepo)
+
+---
+
+## Language Models
+
+- [Open source LM capable of manipulating Operating System](/models/OS-manipulation-lm) 
 
 ---
 
@@ -72,7 +67,7 @@ Make entire SAFe & Responsible AI thing just a program, which is easy to run loc
         - Browsing
         - Running LMs locally
     - Knowledge base with UI (Confluence analog)
-    - Ticketing system with UI (JIRA analog)
+    - Ticket system with UI (JIRA analog)
     - SAFe system with UI
     - **How do I make it?**
 
@@ -126,7 +121,7 @@ List, what are current POCs, what I intent to achieve with them.
         - Dev POC #1 + RAG + WebSearch (?)
     - [Dev POC #3](/safe-portal/POCs/Dev/poc-3) (?)
         - Put together
-            - ticketing system
+            - ticket system
             - knowledge base
             - software-engineer AI
         - Implement a chain of entities

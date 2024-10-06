@@ -30,6 +30,20 @@ https://mui.com/toolpad/core/react-dashboard-layout/ ?
 
 ### Step 3. App
 
+#### Enterprise CRUD page
+
+![](./img/enterprise-crud-penpot-example.png)
+
+#### Enterprise details page
+
+[SAFe: Enterprise](https://scaledagileframework.com/enterprise/)
+
+...
+
+---
+
+#### Entity page
+
 ![](./img/enterprise-helper-ui.png)
 
 ...
@@ -40,7 +54,7 @@ https://mui.com/toolpad/core/react-dashboard-layout/ ?
 - main page area
 - [collapsible] chat area
 
-### Enterprise-helper Workflow
+#### Enterprise-helper Workflow
 
 App usage workflow (for empty page with entities, e.g. strategic themes) (can be general approach for all such pages):
 
@@ -59,3 +73,6 @@ App usage workflow (for empty page with entities, e.g. strategic themes) (can be
 ![](../product/features/software-engineer-ai/img/boltnew-step-3-preview-2.png)
 
 ![](../product/features/software-engineer-ai/img/boltnew-step-3-preview.png)
+
+---
+

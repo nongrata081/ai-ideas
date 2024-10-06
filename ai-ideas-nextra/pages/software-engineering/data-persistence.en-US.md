@@ -18,3 +18,7 @@ Data persistence:
     - [pglite](https://github.com/electric-sql/pglite) gh
 
 - [sqlite-wasm](https://github.com/sqlite/sqlite-wasm)
+
+- [duckdb-wasm](https://github.com/duckdb/duckdb-wasm)
+    - https://duckdb.org/
+    - https://duckdb.org/docs/api/wasm/overview.html
