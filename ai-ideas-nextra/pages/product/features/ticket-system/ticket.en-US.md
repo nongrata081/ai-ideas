@@ -1,5 +1,9 @@
 # Ticket
 
+## UI
+
+
+
 ## Description
 
 ### Prompt persistence
@@ -24,20 +28,29 @@ Each ticket after execution of it should have **full context** of everything rel
 
 - **related** (highligted) **code** of its implementation (file(s), LOC's)
 - (for frontend) **snapshots** of **visual regression** testing
-- ...
+- (prompt) ticket **execution logs**
+- **BDD testing reports**
+- **e2e testing reports**
+- **unit testing reports**
+- business value ?
+- story points (compute points) ? (how much compute is required for execution)
+- **definition of done**
+- **NFRS (non-functional requirements)**
+- **user story**
+- **acceptance criteria**
 
 ## Ticket types
 
 SAFe specific
 
-- User story
-- Enabler story
-- Feature
-- Enabler feature
-- Capability
-- Enabler Capability
-- Epic
-- Enabler epic
+- [Story](/product/features/ticket-system/ticket/ticket-types/story)
+- [Enabler story](/product/features/ticket-system/ticket/ticket-types/enabler-story)
+- [Feature](/product/features/ticket-system/ticket/ticket-types/feature)
+- [Enabler feature](/product/features/ticket-system/ticket/ticket-types/enabler-feature)
+- [Capability](/product/features/ticket-system/ticket/ticket-types/capability)
+- [Enabler Capability](/product/features/ticket-system/ticket/ticket-types/enabler-capability)
+- [Epic](/product/features/ticket-system/ticket/ticket-types/epic)
+- [Enabler epic](/product/features/ticket-system/ticket/ticket-types/enabler-epic)
 
 Other
 
@@ -107,3 +120,11 @@ This feedback might be as detailed as possible. LM(s) might then be continuously
 - ... feedback & retry loop continues, until the desired result is reached
 - User creates a pull request with updates of the trained model
 - PR is reviewed and is either accepted & merged / cancelled
+
+## Ticket Versioning
+
+Tickets can be versioned. When ticket is edited, its versioned is bumped. Tickets are the main unit of work in SEAI. It is considered normal for tickets to be edited / updated with time (probably growing from more simple into more complex), thus versions for tickets' change tracking. Each **[Execution Run](/product/features/software-engineer-ai/prompt-execution#execution-run)** is registered on a certain **ticket version**.
+
+### Ticket Version
+
+For representing a certain ticket version use `#` sign and a number `N`, e.g. `#1`, `#2`, `#3`, etc.

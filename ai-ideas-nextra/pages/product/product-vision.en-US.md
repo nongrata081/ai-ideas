@@ -8,6 +8,11 @@
 
 ---
 
+> Build & deploy AI apps with a mobile phone.
+
+- resonsive markup for all pages + good UX
+---
+
 ## Responsible AI
 
 SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). My vision is just **implement all evaluation types** that are possible in **programmatic way** with LMs and AI Agents. So that any developer of an AI tool can: 
@@ -18,6 +23,15 @@ SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). M
 - & risks or law violations, etc.
 
 Make entire SAFe & Responsible AI thing just a program, which is easy to run locally for your project. Functional enough to provide real value to developers of AI. Fast enough to be performant.
+
+---
+
+## SRE ?
+
+Consider adding SRE management to the Enterprise-helper?
+
+- [The Evolving SRE Engagement Model](https://sre.google/sre-book/evolving-sre-engagement-model/)
+    - [ ] Extract vision from ^^
 
 ---
 

@@ -92,3 +92,14 @@ We might:
     - for this we could **[codify all typical use cases](/product/features/software-engineer-ai/use-cases-codification)** in the full cycle of AI development (frontend, backend, ML, data, etc.)
 3. Train LM to flexibly write code without manually maintained codegen?
     - If it's possible, we should try (possibly with high-quality datasets, labeled)
+
+## Programming Languages vision
+
+- Start with javascript
+    - Train LM to work well with code generation
+    - Get experience with continuous training pipeline
+- Expand to other programming languages (one by one)
+    - rust
+    - go
+    - C / C++
+    - etc.

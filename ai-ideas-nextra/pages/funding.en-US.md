@@ -1,5 +1,9 @@
 # Funding
 
+## Patreon
+
+https://github.com/patak-dev
+
 ## OSS Fellowship
 
 Funding example:
