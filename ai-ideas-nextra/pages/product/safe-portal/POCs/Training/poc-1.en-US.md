@@ -6,3 +6,19 @@ Prefer local training.
 
 Take unslot 5min video example as a base. Extract mental model.
 
+---
+
+## Tools for LM training
+
+- litgpt
+- unsloth
+- torchtune / torchchat
+- etc.
+
+---
+
+## Articles
+
+### Domain-specific LM training
+
+- [Fine-Tune Llama 3.2 for Powerful Performance in Targeted Domains](https://towardsdatascience.com/fine-tune-llama-3-2-for-powerful-performance-in-targeted-domains-8c4fccef93dd)

@@ -1,5 +1,15 @@
 # Continuous Training Pipeline
 
+## Apps
+
+- Evaluation-app
+  - Language Models
+    - Build LMs evaluation app, e.g. [autoarena](https://www.autoarena.app/) / 
+  - Computer Vision
+  - etc.
+
+## LM Ops
+
 - [litgpt](https://github.com/Lightning-AI/litgpt)
 
 Create a Web UI with xterm.js + litgpt. Execute litgpt terminal commands for models:
@@ -14,7 +24,7 @@ Show all terminal outputs in a handy way in a web UI.
 
 ---
 
-## Download
+### Download
 
 LitGPT supports a variety of LLM architectures with publicly available weights. You can download model weights and access a list of supported models using the litgpt download list command.
 
@@ -38,7 +48,7 @@ The download of certain models requires an additional access token. You can read
 > ```
 > (e.g. there are sometimes errors with litgpt download - hanging the process without any progress when trying to download a model).
 
-## Pretrain
+### Pretrain
 
 [litgpt pretrain](https://github.com/Lightning-AI/litgpt?tab=readme-ov-file#pretrain-an-llm)
 
@@ -67,7 +77,7 @@ litgpt chat out/custom-model/final
 
 [Full pretraining docs](https://github.com/Lightning-AI/litgpt/blob/main/tutorials/pretrain.md)
 
-## Finetune
+### Finetune
 
 [litgpt finetune](https://github.com/Lightning-AI/litgpt?tab=readme-ov-file#finetune-an-llm)
 
@@ -93,7 +103,7 @@ litgpt serve out/custom-model/final
 
 [Full finetuning docs](https://github.com/Lightning-AI/litgpt/blob/main/tutorials/finetune.md)
 
-## Continue pretraining
+### Continue pretraining
 
 [litgpt continue pretraining](https://github.com/Lightning-AI/litgpt?tab=readme-ov-file#continue-pretraining-an-llm)
 
@@ -119,7 +129,7 @@ litgpt chat out/custom-model/final
 
 [Full pretraining docs](https://github.com/Lightning-AI/litgpt/blob/main/tutorials/pretrain.md#continued-pretraining-on-custom-data)
 
-## Test
+### Test
 
 [litgpt test](https://github.com/Lightning-AI/litgpt?tab=readme-ov-file#test-an-llm)
 
@@ -133,7 +143,7 @@ litgpt chat microsoft/phi-2
 
 [Full chat docs](https://github.com/Lightning-AI/litgpt/blob/main/tutorials/inference.md)
 
-## Evaluate
+### Evaluate
 
 [litgpt evaluate](https://github.com/Lightning-AI/litgpt?tab=readme-ov-file#evaluate-an-llm)
 
@@ -141,7 +151,7 @@ Evaluate an LLM to test its performance on various tasks to see how well it unde
 
 [Full evaluation docs](https://github.com/Lightning-AI/litgpt/blob/main/tutorials/evaluation.md)
 
-## Deploy
+### Deploy
 
 [litgpt deploy](https://github.com/Lightning-AI/litgpt?tab=readme-ov-file#deploy-an-llm)
 

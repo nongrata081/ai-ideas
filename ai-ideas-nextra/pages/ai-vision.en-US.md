@@ -1,5 +1,17 @@
 # AI vision
 
+## Releasing AI
+
+Autogenerate **changelogs**, have **build artifacts** for:
+- apps / libs
+- models / data
+
+Introduce **release-context** for an AI-app, that would have references to everything related to a release, similar to the [ticket-context](/product/features/ticket-system/ticket#ticket-context) or [repo-context](/safe-portal/POCs/Dev/poc-6#61-repo-contextjson).
+
+## DevOps + MLOps CI
+
+In AI age being able to ship reliable software implies that you have to run all OPS (traditional **development operations** for linting, building, testing,  etc. for applications and libraries & **machine learning operations** like training, fine-tuning, evaluating, etc) in an automated way in **CI** as a part of your every-day development / training workflow and for making releases.
+
 ## Web-containers & bolt.new
 
 Revolution in AI. bolt.new -like apps will most probably soon take over in every field. Imagine apps with chat with LM on the left-side + web-containerized dev environment on the right side - with an OS and stack of software (Penpot for UI prototyping, Databases and anything else open-source for any kind of work), fully manipulated by LM.
@@ -25,6 +37,7 @@ https://github.com/stackblitz/bolt.new/blob/main/CONTRIBUTING.md
     ![](./ai-vision/img/openai-canvas-ad.webp)
 - [anthropic artifacts](https://www.anthropic.com/news/artifacts) / [What are Artifacts and how do I use them?](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) / [How we built Artifacts with Claude](https://www.youtube.com/watch?v=vUdNaAAc4FY)
     ![](./ai-vision/img/anthropic-artifacts.png)
+- [codesandbox.io](https://codesandbox.io/) (only the code IDE + browser preview)
 
 ---
 

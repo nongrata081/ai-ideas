@@ -1,5 +1,7 @@
 # Courses
 
+- [Harvard CMSA](https://www.youtube.com/@harvardcmsa7486/playlists)
+
 ## Open-source
 
 - [Become An Open Source Master](https://www.jointaro.com/course/become-an-open-source-master/)

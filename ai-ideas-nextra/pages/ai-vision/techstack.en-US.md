@@ -49,3 +49,30 @@ Nx + Rust?
 - npm v10.8.2
 - bun v1.0.35
 - nx v19.8.2
+
+---
+
+## Build tools
+
+### Rust
+
+[Platform Support](https://doc.rust-lang.org/nightly/rustc/platform-support.html)
+
+### Tauri
+
+[Target](https://v2.tauri.app/reference/acl/capability/#target)
+
+- MacOS
+- Windows
+- Linux
+- Android
+- iOS
+
+### Deno
+
+[Supported targets](https://docs.deno.com/runtime/reference/cli/compiler/#supported-targets)
+
+- Windows
+- macOS
+- Linux
+

@@ -1,7 +1,46 @@
 # Changelog
 
+## Domain-specific changelog format
 
-## Python
+- [ ] Create own changelog format standard, like [keep a changelog](https://keepachangelog.com/en/1.1.0/) but based on my own preference and logic.
+    - Create domain-specific changelog format standards (that represent data most important for each particular domain)
+        - Language Models
+        - Datasets
+        - Frontend applications
+        - Backend applications
+        - etc.
+    - > **Justification**. Types of changes differ based on what is being developed. Changes for a front-end app might be different from changes for a Back-end (web-server) app and might not reflect the important specifics of it. Thus we should have a **domain-specific changelog format**
+
+### Changelog format: Front-end
+
+...
+
+### Changelog format: Back-end (web-server)
+
+...
+
+### Changelog format: Language Model
+
+...
+
+### ### Changelog format: Dataset
+
+...
+
+---
+
+## Changelog generation tool & configuration
+
+- Explicit template
+- Generate changelog based on template (with easy template switching)
+
+---
+
+[github Automatically generated release notes](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes)
+
+## Changelog generation tools
+
+### Python 
 
 [git-cliff](https://github.com/orhun/git-cliff)
 

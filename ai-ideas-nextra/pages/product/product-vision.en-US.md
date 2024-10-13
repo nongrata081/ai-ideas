@@ -4,6 +4,13 @@
 
 ---
 
+> Ship **solution** that helps people focus on business value
+
+- software
+- hardware
+
+---
+
 [Local-first](/product/development/data-persistence#local-first) (easily deployable & [online-ready](/product/development/data-persistence#online-ready)) **suite of tools** including frontends, backends, language models **to facilitate enterprise execution with AI**.
 
 ---
@@ -40,6 +47,7 @@ Consider adding SRE management to the Enterprise-helper?
 - [nx ai generators](/product/features/nx-ai-generators)
     - [@nxlv/python](/software-engineering/python-monorepo)
     - [**bolt.new-like app UI with MUI**](/product/features/software-engineer-ai/software-engineer-ai#opensource) (for opensource community)
+    - [github template reposities](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) ?
 - [**Continuous training pipeline**](/product/features/continuous-training-pipeline)
 - [Flavors](/product/features/flavors)
 - [Knowledge base](/product/features/knowledge-base)
@@ -84,6 +92,12 @@ Consider adding SRE management to the Enterprise-helper?
     - Ticket system with UI (JIRA analog)
     - SAFe system with UI
     - **How do I make it?**
+
+---
+
+- **tools** for different purposes (like Vscode for coding, or Figma for UI prototyping might be released at some point **bundled with LMs**, trained for performance in their corresponding domain). Most probably, it is a matter of time, when it becomes a new industry standard.
+
+What does it mean for the product I'm building?
 
 ---
 
@@ -133,11 +147,12 @@ List, what are current POCs, what I intent to achieve with them.
         - Strategic Themes + Chat with docs (?)
     - [Dev POC #2](/safe-portal/POCs/Dev/poc-2)
         - Dev POC #1 + RAG + WebSearch (?)
-    - [Dev POC #3](/safe-portal/POCs/Dev/poc-3) (?)
+    - [Dev POC #3.2](/safe-portal/POCs/Dev/poc-3-2) (?)
         - Put together
             - ticket system
             - knowledge base
             - software-engineer AI
+            - continuous training pipeline
         - Implement a chain of entities
             - Strategic themes
             - Epics
@@ -146,8 +161,11 @@ List, what are current POCs, what I intent to achieve with them.
             - User Stories
     - [Dev POC 4](/safe-portal/POCs/Dev/poc-4)
         - continuous training pipeline (litgpt)
-    - [Dev POC 5](http://localhost:3000/safe-portal/POCs/Dev/poc-5)
+    - [Dev POC 5](/safe-portal/POCs/Dev/poc-5)
         - chat + web-container (dev env: code IDE, browser, terminal)
+    - [Dev POC 6](/safe-portal/POCs/Dev/poc-6)
+        - generate app from strategic themes
+            - repo-context.json + LM + Strategic Themes
 - Training POCs
     - [Training POC #1](/safe-portal/POCs/Training/poc-1)
         - Fine-tuned Llama 3.1 8B
@@ -165,3 +183,34 @@ List, what are current POCs, what I intent to achieve with them.
 - Which LM performs best on this benchmark (give it a name) ?
         
 ---
+
+## [Hardware](/hardware/requirements#reqs-for-a-cluster)
+
+Should I consider building (or assembling from existing products (e.g. compute blade)) a compute cluster with task-specific hardware for:
+
+- CI server (e.g. AI-fied [cloud.nx.app](https://cloud.nx.app/) but locally and for free?)
+    - DevOps for apps, libs
+    - MLOps for LMs, data
+- AI Server for performant hardware-demanding LMs like Llama 3.1 405B, for free
+    - separate server to train LMs
+    - separate server to run LMs
+    - use via local network via API ()?
+        - [as a code assistant](https://www.youtube.com/watch?v=ayWcs5FbxGY&t=727s) ?
+        - for other things ?
+
+Imagine scalable production-ready full-cycle **AI-app-development hardware-stack** as a **commodity**. (At such a cheap affordable price, that anybody can buy it. Any individual. And scale it up to meet enterprise compute volumes, if needed).
+
+### CI-server
+
+Should be performant enough in order to be able to run **DevOps for apps/libs**, but also **MLOps for LMs, Data**. Ideally have an open-source solution like nx, but also cloud solution like cloud.nx.app.
+
+### AI-Server
+
+...
+
+### Tabletop cluster (?)
+
+**Enterprise-helper** Compute-blade (or any other thing it might be?) **cluster** can be designed in several flavors:
+
+1. Tabletop solution (for individual / team usage)
+2. Full-fledged rack (for enterprise)

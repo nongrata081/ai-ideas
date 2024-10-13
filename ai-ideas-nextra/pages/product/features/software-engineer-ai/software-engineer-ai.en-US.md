@@ -95,7 +95,7 @@ We might:
 
 ## Programming Languages vision
 
-- Start with javascript
+- Start with javascript, python
     - Train LM to work well with code generation
     - Get experience with continuous training pipeline
 - Expand to other programming languages (one by one)
@@ -103,3 +103,18 @@ We might:
     - go
     - C / C++
     - etc.
+
+## LMs vision
+
+[llamacoder](https://llamacoder.together.ai/)
+
+Code editing / Preview sucks compared to web-containers approach. But running Llama 405B for codegen makes sense.
+
+---
+[sandpack](https://sandpack.codesandbox.io/)
+[sandpack gh](https://github.com/codesandbox/sandpack)
+
+
+## Other
+
+[dprint](https://github.com/axhxrx/dprint) - a pluggable and configurable code formatting platform written in Rust.
