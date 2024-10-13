@@ -1,5 +1,9 @@
 # Funding
 
+## LiberaPay
+
+https://liberapay.com/
+
 ## Patreon
 
 https://github.com/patak-dev

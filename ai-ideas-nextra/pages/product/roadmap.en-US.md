@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] implement roadmap according to [github/roadmap](https://github.com/github/roadmap) ?
+
 ## Milestones
 
 1. **Q4 2024**. v0.1.0. Webapp. Basic integrated UI.

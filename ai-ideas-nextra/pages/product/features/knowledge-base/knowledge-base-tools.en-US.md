@@ -2,6 +2,9 @@
 
 ## Tools for kb implementation
 
+- [visulima github](https://github.com/visulima/visulima)
+    - [mdx card links, footer, reactions, comments](https://www.visulima.com/docs/package/connect/introduction)
+
 https://vitepress.dev/
 
 https://github.com/shuding/nextra

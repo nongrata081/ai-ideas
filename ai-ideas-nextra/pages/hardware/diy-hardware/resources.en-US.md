@@ -2,6 +2,10 @@
 
 ## Producers
 
+- [deskpi.com](https://deskpi.com/)
+    - [deskpi-super6c](https://deskpi.com/collections/deskpi-super6c) (6rpis cluster + case)
+        - [DeskPi-Team/super6c](https://github.com/DeskPi-Team/super6c)
+    - [deskpi-rack-mate](https://deskpi.com/collections/deskpi-rack-mate?page=1) everything for cluster
 - [Pineboards](https://twitter.com/Pineboards)
     - [Mirosław Folejewski](https://twitter.com/Mirko_DIY)
 - [raspberrypi](https://www.raspberrypi.com/)

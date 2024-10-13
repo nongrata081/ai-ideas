@@ -15,6 +15,10 @@
 
 ...
 
+## Microsoft CLA
+
+https://opensource.microsoft.com/cla/
+
 ---
 
 - Consider implementing same thing for Enterprise-helper. 

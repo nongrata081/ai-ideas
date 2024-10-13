@@ -6,6 +6,8 @@
     - ticket system
     - software engineer AI
     - continuous training pipeline
+    - DevOps platform
+    - Status page system
     
 
 
@@ -26,3 +28,13 @@
 When AI gets precise and reliable enough, it will probably unlock new scenarios for open-source development, giving much more flexibility for goals such described above. E.g. flexibly consume latest open-source libraries without much manual hassle. With a possibility to seamlessly integrate those libs / apps entirely / partially into my own apps / libs.
 
 This could be a thing to reflect on in general, as an idea for future.
+
+
+---
+
+
+## Status page system
+
+- [cachet](https://cachethq.io/)
+    - https://github.com/cachethq/cachet
+    - [demo@v3](https://v3.cachethq.io/)

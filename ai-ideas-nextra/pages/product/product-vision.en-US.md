@@ -44,6 +44,15 @@ Consider adding SRE management to the Enterprise-helper?
 
 ## Solutions / Features
 
+- [The AI-Native Software Delivery Platform](https://www.harness.io/)
+    - [Shaping the Future of AI-Native Software Delivery](https://www.harness.io/blog/accelerating-innovation-at-unscripted-2024)
+    - [AI DevOps assistant](https://www.harness.io/products/ai-native-software-delivery#ai-devops-assistant)
+        - study all of Harness coolness & get inspiration from
+        - fill in kb with ideas, tasks
+    - [Harness named a Leader in the 2024 Gartner® Magic Quadrant™ for DevOps Platforms](https://www.harness.io/resource/gartner-magic-quadrant-for-devops-platforms-2024)
+    - [Harness named a Leader in the 2024 Gartner® Magic Quadrant™ for DevOps Platforms](https://www.gartner.com/reviews/market/devops-platforms/vendor/harness/product/harness/review/view/5062690)
+    - [github.com/harness](https://github.com/harness)
+    - [drone](https://github.com/C-EO/drone) / [drone.io](https://www.drone.io/)
 - [nx ai generators](/product/features/nx-ai-generators)
     - [@nxlv/python](/software-engineering/python-monorepo)
     - [**bolt.new-like app UI with MUI**](/product/features/software-engineer-ai/software-engineer-ai#opensource) (for opensource community)
@@ -72,6 +81,58 @@ Consider adding SRE management to the Enterprise-helper?
 - [User-input context-builder](/product/features/user-input-context-builder)
 - Prompt templates (?) - Should I use them, to have some context when sending a prompt from web page to the model? (DSPy?). E.g. each entity page to have it's own prompt template, so that there is context when a user prompt for a given entity is sent?
 - **Web-containerize** Enterprise-helper
+- Add IAM & SSO (**Single-Sign-On**)
+    - [authelia.com](https://www.authelia.com/)
+    - [authelia/authelia](https://github.com/authelia/authelia)
+- Add **team communication** with [element.io]()
+    - [element-hq/element-web](https://github.com/element-hq/element-web) github
+- Build a **CLI-tool** for Enterprise-helper?
+    - like https://github.com/cli/cli
+    - https://github.com/supabase/cli
+- add [codeQL](https://github.com/github/codeql) for **code security**
+    - [codeql.github.com](https://codeql.github.com/)
+- Add **code-intelligence** tool (for code search, fix, update) across codebases
+    - with [sourcegraph](https://sourcegraph.com/) or something similar (& maintained as open-source)
+    - https://github.com/sourcegraph/sourcegraph-public-snapshot
+- Implement an education-portal (to help learn AI-development)
+    - with [noodle.run](https://noodle.run/) / [noodle github](https://github.com/noodle-run/noodle) or similar
+- vpn? 
+    - https://github.com/OpenVPN/openvpn
+- database package manager ?
+    - https://database.dev/ - For Postgres Trusted Language Extensions
+    - [pg_tle](https://github.com/aws/pg_tle) - Framework for building trusted language extensions for PostgreSQL
+        - PostgreSQL provides an extension framework for adding more functionality to PostgreSQL without having to fork the codebase. This powerful mechanism lets developers build new functionality for PostgreSQL, such as new data types, the ability to communicate with other database systems, and more. It also lets developers consolidate code that is functionally related and apply a version to each change. This makes it easier to bundle and distribute software across many unique PostgreSQL databases.
+    - https://supabase.github.io/dbdev/
+    - https://github.com/supabase/dbdev
+- Use [visulima](https://github.com/visulima/visulima) for knowledge base?
+    - Update existing kb with [card links](https://www.visulima.com/docs/package/connect/introduction)
+        - [cards markdown](https://github.com/visulima/visulima/blob/main/packages/error/__docs__/quickstart.mdx)
+    - add comments
+    - add footer
+    - add reactions
+- add badges to git repo with [shields](https://github.com/badges/shields)
+    - code-coverage
+    - stable release version
+    - package manager release
+    - status of third-party dependencies
+    - static code analysis grade
+    - SemVer version observance
+    - Python (JS?) package downloads
+    - Uptime Robot percentage
+    - create [own badges](https://github.com/badges/shields?tab=readme-ov-file#examples) if needed
+- add AI powered search (?)
+    - [miurla/morphic](https://github.com/miurla/morphic)
+    - [morphic.sh](https://www.morphic.sh/)
+- automate syncing between your computer and cloud drive?
+    - [meganz/MEGAsync](https://github.com/meganz/MEGAsync)
+- add a [bookreader](https://github.com/internetarchive/bookreader) for on-site library?
+    - [openlibrary-client](https://github.com/internetarchive/openlibrary-client) ?
+    - [free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+Python Client Library for the Archive.org OpenLibrary API
+- consider [Ghost](https://github.com/TryGhost/Ghost) for something?
+- [typebot](https://github.com/baptisteArno/typebot.io) self-hosted chatbot builder?
+- markdown powered blog - [beam](https://github.com/planetscale/beam)
+- manage database with UI ? [rowy](https://github.com/rowyio/rowy)
 
 ---
 
@@ -147,12 +208,15 @@ List, what are current POCs, what I intent to achieve with them.
         - Strategic Themes + Chat with docs (?)
     - [Dev POC #2](/safe-portal/POCs/Dev/poc-2)
         - Dev POC #1 + RAG + WebSearch (?)
-    - [Dev POC #3.2](/safe-portal/POCs/Dev/poc-3-2) (?)
+    - [Dev POC #3.1](/safe-portal/POCs/Dev/poc-3-1)
         - Put together
-            - ticket system
             - knowledge base
+            - ticket system
             - software-engineer AI
             - continuous training pipeline
+            - DevOps platform
+            - Status page system
+    - [Dev POC #3.2](/safe-portal/POCs/Dev/poc-3-2)
         - Implement a chain of entities
             - Strategic themes
             - Epics
@@ -203,6 +267,39 @@ Imagine scalable production-ready full-cycle **AI-app-development hardware-stack
 ### CI-server
 
 Should be performant enough in order to be able to run **DevOps for apps/libs**, but also **MLOps for LMs, Data**. Ideally have an open-source solution like nx, but also cloud solution like cloud.nx.app.
+
+- [gitea](https://about.gitea.com/) - [Open-source Private DevOps Platform](https://github.com/nitehub-org/nitehub).
+    - [Code (Git) Hosting](https://about.gitea.com/products/gitea/)
+        - [GitLab CE Mirror](https://github.com/gitlabhq/gitlabhq) just in case
+    - [CI/CD Gitea Actions](https://about.gitea.com/products/runner/) (GitHub Actions)
+    - Projects
+    - Packages
+- [git-lfs](https://github.com/git-lfs/git-lfs) for gitea? (for ML purposes)
+- [harness](https://github.com/harness/harness) ?
+    - Harness Open Source is an all-in-one platform that integrates source code management, CI/CD pipelines, hosted development environments, and artifact (registries) management.
+    - [harness.io/docs/open-source](https://developer.harness.io/docs/open-source)
+        - Continuous Delivery & GitOps
+        - Continuous Integration
+        - Artifact Registry
+        - Cloud Development Environments
+        - Database DevOps
+        - Chaos Engineering
+        - Cloud Cost Management
+        - Code Repository
+        - Feature Management & Experimentation
+        - Infrastructure as Code Management
+        - Internal Developer Portal
+        - Security Testing Orchestration
+        - Service Reliability Management
+        - Software Engineering Insights
+        - Supply Chain Security
+    - Good example for inspiration. AI-ified toolchains. Reported Leader by Gartner
+    - [State of developer experience](https://www.harness.io/state-of-developer-experience) report
+    - [AI DevOps assistant](https://www.harness.io/products/ai-native-software-delivery#ai-devops-assistant)
+
+### CD Server
+
+Local Continuous Deployment Platform like [vercel](https://github.com/vercel/vercel) (github link) ?
 
 ### AI-Server
 

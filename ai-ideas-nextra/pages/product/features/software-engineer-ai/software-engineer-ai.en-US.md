@@ -1,6 +1,48 @@
 # software engineer AI
 
+## Features
+
+- Implement PR automerge with [bulldozer](https://github.com/palantir/bulldozer) or something similar
+- [palantir/policy-bot](https://github.com/palantir/policy-bot )
+A GitHub App that enforces approval policies on pull requests (?)
+
 ## Inspiration
+
+### Code intelligence
+
+- Add **code-intelligence** tool (for code search, fix, update) across codebases
+    - with [sourcegraph](https://sourcegraph.com/) or something similar (& maintained as open-source)
+    - https://github.com/sourcegraph/sourcegraph-public-snapshot
+
+### VSCode 
+
+#### VSCode in the browser
+
+[code-server](https://github.com/coder/code-server)
+
+- [ ] Consider using code-server
+
+Run VS Code on any machine anywhere and access it in the browser.
+
+#### VSCode remote development
+
+do we need to use [vs-code-remote-development](/software-engineering/vscode#vs-code-remote-development) ?
+
+### Gitpod or Webcontainers ?
+
+and? or? try both
+
+### Gitpod
+
+Standardized and automated development environments
+Self-host in 3 minutes
+
+- [ ] Consider using [Gitpod](/software-engineering/web-containers#gitpod) (dev environments on demand). Spin up a dev environment fully setup & ready for dev with 1 click.
+
+- [Gitpod website and documentation](https://github.com/KlasenK/website)
+
+- [gitpod-io/workspace-images](https://github.com/gitpod-io/workspace-images) Ready to use docker images for Gitpod workspaces
+    - [gitpod.io/docs/.../workspace-image](https://www.gitpod.io/docs/configure/workspaces/workspace-image)
 
 ### bolt.new
 
