@@ -20,6 +20,24 @@
 - resonsive markup for all pages + good UX
 ---
 
+## Enterprise Runtime Stack
+
+- [Continuous training pipeline](/product/features/continuous-training-pipeline)
+- [Knowledge base](/product/features/knowledge-base)
+- [Ticket system](/product/features/ticket-system)
+- [software engineer AI](/product/features/software-engineer-ai/software-engineer-ai)
+- CI-server
+- CD-server
+- AI-server
+- DevOps platform
+- Team Communication
+- Status Page System
+- etc.
+
+## LLM-empowered features
+
+AI-native enterprise execution platform. Each **feature**, each **process** is to be thought of from the perspective of **how it can be enhanced with LLMs**. Throughout the entire **[Implementation Domain Stack](#implementation-domain-stack)**.
+
 ## Responsible AI
 
 SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). My vision is just **implement all evaluation types** that are possible in **programmatic way** with LMs and AI Agents. So that any developer of an AI tool can: 
@@ -133,6 +151,10 @@ Python Client Library for the Archive.org OpenLibrary API
 - [typebot](https://github.com/baptisteArno/typebot.io) self-hosted chatbot builder?
 - markdown powered blog - [beam](https://github.com/planetscale/beam)
 - manage database with UI ? [rowy](https://github.com/rowyio/rowy)
+
+### Finance
+
+Enable AI-ified insights into finance & possible optimizations.
 
 ---
 
@@ -296,6 +318,8 @@ Should be performant enough in order to be able to run **DevOps for apps/libs**,
     - Good example for inspiration. AI-ified toolchains. Reported Leader by Gartner
     - [State of developer experience](https://www.harness.io/state-of-developer-experience) report
     - [AI DevOps assistant](https://www.harness.io/products/ai-native-software-delivery#ai-devops-assistant)
+
+- [opentofu](https://github.com/opentofu/opentofu) for Infrastructure as Code ?
 
 ### CD Server
 

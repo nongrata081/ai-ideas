@@ -1,5 +1,9 @@
 # License
 
+## MIT License. Forever.
+
+Long story told short: [TerraForm case & OpenTofu](https://opentofu.org/manifesto/)
+
 ## Github Open Source Legal Guide
 
 - [Github] Open Source Guide. Legal: [Which open source license is appropriate for my project?](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project)
