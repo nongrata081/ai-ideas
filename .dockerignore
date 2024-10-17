@@ -1,0 +1,12 @@
+Dockerfile
+
+# Ignore package-lock.json
+package-lock.json
+ai-ideas-nextra/package-lock.json
+
+# Ignore .git folder
+.git
+
+# Ignore node_modules
+node_modules/
+ai-ideas-nextra/node_modules/

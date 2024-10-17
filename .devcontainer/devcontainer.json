@@ -1,14 +1,28 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
-  "name": "enterprise-helper-image",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm",
-  "runArgs": ["--name", "enterprise-helper-container"],
-  "postCreateCommand": "chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-  },
-  "mounts": [
-    "target=${containerWorkspaceFolder}/node_modules,type=volume",
-    "target=${containerWorkspaceFolder}/ai-ideas-nextra/node_modules,type=volume"
-  ],
-  "forwardPorts": [3000]
+  "name": "enterprise helper container",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [3000],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh"
+
+  // Configure tool-specific properties.
+  // "customizations": {
+  // 	"vscode": {
+  // 		"settings": {},
+  // 		"extensions": [
+  // 			"streetsidesoftware.code-spell-checker"
+  // 		]
+  // 	}
+  // },
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "vscode"
 }
