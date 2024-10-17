@@ -14,3 +14,4 @@
 
 ## TODO
 
+- [TriliumNext/web-clipper](https://github.com/TriliumNext/web-clipper) - what an awesome feature!

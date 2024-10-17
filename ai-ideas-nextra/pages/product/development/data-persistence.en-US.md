@@ -13,3 +13,7 @@ e.g.: https://huggingface.co/datasets/google/frames-benchmark the wasm ported du
 ### Online-ready
 
 ...
+
+---
+
+Should I have a tool like [trilium-db-compare](https://github.com/TriliumNext/trilium-db-compare) ?

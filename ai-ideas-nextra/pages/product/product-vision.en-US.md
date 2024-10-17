@@ -151,6 +151,16 @@ Python Client Library for the Archive.org OpenLibrary API
 - [typebot](https://github.com/baptisteArno/typebot.io) self-hosted chatbot builder?
 - markdown powered blog - [beam](https://github.com/planetscale/beam)
 - manage database with UI ? [rowy](https://github.com/rowyio/rowy)
+- support maths with [mathjax](https://www.mathjax.org/) / [katex](https://katex.org/) / [ckeditor5-math](https://www.npmjs.com/package/ckeditor5-math) ?
+- add rich text editor (to knowledge base?)
+    - [Quill](https://quilljs.com/) / [gh](https://github.com/quilljs/quill)
+    - [ckeditor 5](https://ckeditor.com/ckeditor-5/) / [gh](https://github.com/ckeditor/ckeditor5)
+    - [TinyMCE](https://www.tiny.cloud/) / [gh](https://github.com/tinymce/tinymce)
+    - [Slate](https://www.slatejs.org/) / [slate](https://github.com/ianstormtaylor/slate)
+    - [Froala](https://froala.com/wysiwyg-editor/) / [gh](https://github.com/froala/wysiwyg-editor)
+    - [Summernote](https://summernote.org/) / [gh](https://github.com/summernote/summernote)
+    - [ProseMirror](https://prosemirror.net/) / [gh](https://github.com/ProseMirror/prosemirror)
+    - [Trumbowyg](https://alex-d.github.io/Trumbowyg/) / [gh](https://github.com/Alex-D/Trumbowyg)
 
 ### Finance
 
