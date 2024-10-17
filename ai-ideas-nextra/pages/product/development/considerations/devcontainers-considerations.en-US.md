@@ -1,9 +1,7 @@
 # Devcontainers considerations
 
-- [ ] Extract from [Ultimate Guide to Dev Containers](https://www.daytona.io/dotfiles/ultimate-guide-to-dev-containers#dev-containers-best-practices)
-
----
-
+- [Definition of Dev Containers](/product/development/considerations/devcontainers-considerations/devcontainers-definition)
+- [Getting Started With Dev Containers](/product/development/considerations/devcontainers-considerations/getting-started)
 - [Best practices](/product/development/considerations/devcontainers-considerations/best-practices)
 - [CI/CD Environments](/product/development/considerations/devcontainers-considerations/ci-cd-enrivonments)
 - [Containers tooling](/product/development/considerations/devcontainers-considerations/containers-tooling)
@@ -42,3 +40,7 @@ Instant dev environments (devcontainers + IDE)
         - Without any hassle for setup. Ready for usage right away.
         - **`Possible solutions`**:
             - [devpod.sh](https://devpod.sh/) / [loft-sh/devpod](https://github.com/loft-sh/devpod) / [docs/what-is-devpod](https://devpod.sh/docs/what-is-devpod)
+            - [![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/loft-sh/devpod-templates@subpath:docker-in-docker)
+            - [devpod templates](https://github.com/loft-sh/devpod-templates), e.g. [docker-in-docker](https://github.com/loft-sh/devpod-templates/tree/main/docker-in-docker)
+
+Implement devpod for 1 click dev environments.
