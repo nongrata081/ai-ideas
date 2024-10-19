@@ -18,25 +18,31 @@
 > Build & deploy AI apps with a mobile phone.
 
 - resonsive markup for all pages + good UX
+
+> Execute AI Enterprise with a mobile phone.
+
 ---
 
 ## Enterprise Runtime Stack
 
+- Enterprise-helper (entities)
 - [Continuous training pipeline](/product/features/continuous-training-pipeline)
 - [Knowledge base](/product/features/knowledge-base)
 - [Ticket system](/product/features/ticket-system)
 - [software engineer AI](/product/features/software-engineer-ai/software-engineer-ai)
+- DevOps platform
 - CI-server
 - CD-server
 - AI-server
-- DevOps platform
+- Code Intelligence
+- Enterprise Intelligence
 - Team Communication
 - Status Page System
 - etc.
 
 ## LLM-empowered features
 
-AI-native enterprise execution platform. Each **feature**, each **process** is to be thought of from the perspective of **how it can be enhanced with LLMs**. Throughout the entire **[Implementation Domain Stack](#implementation-domain-stack)**.
+AI-native enterprise execution platform. Each **feature**, each **process** is to be thought of from the perspective of **how it can be enhanced with LLMs**. Throughout the entire **[Enterprise Runtime Stack](#enterprise-runtime-stack)**.
 
 ## Responsible AI
 
@@ -161,6 +167,7 @@ Python Client Library for the Archive.org OpenLibrary API
     - [Summernote](https://summernote.org/) / [gh](https://github.com/summernote/summernote)
     - [ProseMirror](https://prosemirror.net/) / [gh](https://github.com/ProseMirror/prosemirror)
     - [Trumbowyg](https://alex-d.github.io/Trumbowyg/) / [gh](https://github.com/Alex-D/Trumbowyg)
+- **Share conversations** (chat) history **across** different **LM-chat apps**. (e.g. open-webui - Enterprise -helper).
 
 ### Finance
 

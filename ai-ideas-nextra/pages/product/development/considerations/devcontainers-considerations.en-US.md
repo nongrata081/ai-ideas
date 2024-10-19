@@ -1,5 +1,6 @@
 # Devcontainers considerations
 
+- [Platform specific node_modules](/product/development/considerations/devcontainers-considerations/platform-specific-node-modules)
 - [Definition of Dev Containers](/product/development/considerations/devcontainers-considerations/devcontainers-definition)
 - [Getting Started With Dev Containers](/product/development/considerations/devcontainers-considerations/getting-started)
 - [Best practices](/product/development/considerations/devcontainers-considerations/best-practices)
