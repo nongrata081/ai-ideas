@@ -1,5 +1,13 @@
 # LMs Vision
 
+
+## 1-bit LLMs
+
+All LM-s should be 1-bit. (see [BitNet](/ai-tools/LLM/local/tools/bitnet))
+
+
+## Other
+
 - [ ] Extract papers & vision about small LMs from YT Video [How to Make Small Language Models Work. Yejin Choi Presents at Data + AI Summit 2024](https://www.youtube.com/watch?v=OBkMbPpLCqw)
 
 ![](./img/small-lms-1.png)

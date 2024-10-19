@@ -4,7 +4,35 @@
 - torchtune
 - torchchat
 
+---
+
 ## Building LLM from scratch:
+
+Follow [How I Studied LLMs in Two Weeks](/ai-vision/build-llm#how-i-studied-llms-in-two-weeks) to eventually be able to **reproduce GPT-2 with ease** ([Andrej Karpathy: Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=12)) (playlist [Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ))
+
+[Hesam Sheikh](https://medium.com/@itshesamsheikh) ai/ml | rigorously overfitting on a learning curve
+
+### How I Studied LLMs in Two Weeks
+
+[How I Studied LLMs in Two Weeks: A Comprehensive Roadmap](https://towardsdatascience.com/how-i-studied-llms-in-two-weeks-a-comprehensive-roadmap-e8ac19667a31) :
+
+### ML retreat
+
+[hesamsheikh/ml-retreat](https://github.com/hesamsheikh/ml-retreat)
+
+A [day-by-day detailed LLM roadmap](https://github.com/hesamsheikh/ml-retreat/tree/main/Days) from beginner to advanced, plus some study tips
+
+---
+
+[aman.ai](https://aman.ai/) - exploring the art of artificial intelligence
+one concept at a time
+
+[Hesamation](https://x.com/Hesamation) x.com
+[github.com/hesamsheikh](https://github.com/hesamsheikh)
+
+---
+
+### Other
 
 - [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://www.youtube.com/watch?v=quh7z1q7-uc)
     - [build-a-large-language-model-from-scratch](https://www.manning.com/books/build-a-large-language-model-from-scratch)

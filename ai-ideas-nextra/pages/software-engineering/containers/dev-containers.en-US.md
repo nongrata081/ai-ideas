@@ -14,4 +14,4 @@ The extension starts (or attaches to) a development container running a well def
 
 You then work with VS Code as if everything were running locally on your machine, except now they are separated inside a container.
 
-![](./remote-containers-readme.gif)
+![](../remote-containers-readme.gif)

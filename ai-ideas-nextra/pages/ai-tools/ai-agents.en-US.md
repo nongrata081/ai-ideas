@@ -1,5 +1,7 @@
 # AI agents
 
+- [A Comprehensive Guide to Collaborative AI Agents in Practice](https://hesamsheikh.substack.com/p/a-comprehensive-guide-to-collaborative)
+
 ### TODO:
 
 - [ ] [What are foundation models?](https://research.ibm.com/blog/what-are-foundation-models)

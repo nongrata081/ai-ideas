@@ -11,10 +11,14 @@
 
 - [Sourcegraph CLI](https://github.com/sourcegraph/src-cli)
 
-
-
 ## Autoupdates for linkrot
 
 Implement with https://github.com/internetarchive/internetarchivebot or something similar (when in a codebase files are moved, and links become broken because of that).
 
 https://iabot.wmcloud.org/
+
+---
+
+## Examples
+
+- [codescene](https://codescene.com/campaigns/ai) (paid)
