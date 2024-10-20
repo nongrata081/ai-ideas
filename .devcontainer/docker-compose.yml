@@ -21,3 +21,5 @@ services:
 
 # volumes:
 #   postgres-data:
+
+# DB container disabled. Uncomment to enable once needed
