@@ -1,23 +1,24 @@
 #!/bin/bash
 
 # Define the commands to run in parallel
-commands=(
-    "nx run react-ui-lib-ai-ideas:lint"
-    "nx run react-ui-lib-ai-ideas:test"
-    "nx run react-ui-lib-ai-ideas:build"
-    "nx run nextapp-ai-ideas:lint"
-    "nx run nextapp-ai-ideas:test"
-    "nx run nextapp-ai-ideas:build"
-    "nx run nextapp-ai-ideas-e2e:lint"
-    "nx run nextapp-ai-ideas-e2e:e2e"
-)
+# commands=(
+#     "nx run react-ui-lib-ai-ideas:lint"
+#     "nx run react-ui-lib-ai-ideas:test"
+#     "nx run react-ui-lib-ai-ideas:build"
+#     "nx run nextapp-ai-ideas:lint"
+#     "nx run nextapp-ai-ideas:test"
+#     "nx run nextapp-ai-ideas:build"
+#     "nx run nextapp-ai-ideas-e2e:lint"
+#     "nx run nextapp-ai-ideas-e2e:e2e"
+# )
 
-# Function to execute commands in parallel
-execute_commands() {
-    for command in "${commands[@]}"; do
-        $command || exit 1  # Exit if any command fails
-    done
-}
+# # Function to execute commands in parallel
+# execute_commands() {
+#     for command in "${commands[@]}"; do
+#         $command || exit 1  # Exit if any command fails
+#     done
+# }
 
-# Execute commands in parallel
-execute_commands
+# # Execute commands in parallel
+# execute_commands
+
