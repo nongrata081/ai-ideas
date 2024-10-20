@@ -11,7 +11,16 @@
   // "forwardPorts": [3000],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh"
+  "postCreateCommand": "chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tamasfe.even-better-toml",
+        "nrwl.angular-console",
+        "PKief.material-icon-theme"
+      ]
+    }
+  }
 
   // Configure tool-specific properties.
   // "customizations": {
