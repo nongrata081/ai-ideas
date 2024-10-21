@@ -33,10 +33,10 @@ For simplicity & speed, while I'm only contributor, no GitFlow is needed, and al
 ## Release workflow
 
 1. Checkout to main Branch and Pull Latest Changes:
-`shell
+    ```shell
     git checkout main
     git pull
-    `
+    ```
 <!-- 2. Create and checkout to a new local git branch for the release with
     ```shell
     git checkout -b release/<release-version>

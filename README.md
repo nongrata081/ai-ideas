@@ -15,3 +15,7 @@ See [Setting up guidelines](./development-docs/setting-up.md)
 ## Contributing
 
 See [Contributing guidelines](./development-docs/contributing.md)
+
+## Releasing
+
+See [Release-strategy](./development-docs/release-strategy.md)

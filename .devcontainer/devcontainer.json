@@ -17,7 +17,8 @@
       "extensions": [
         "tamasfe.even-better-toml",
         "nrwl.angular-console",
-        "PKief.material-icon-theme"
+        "PKief.material-icon-theme",
+        "github.vscode-github-actions"
       ]
     }
   }
