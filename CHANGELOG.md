@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.2.0](https://github.com/nongrata081/ai-ideas/compare/v0.1.0..v0.2.0) - 2024-10-21
 
 ### 🚀 Features
 
@@ -105,8 +105,10 @@ All notable changes to this project will be documented in this file.
 
 ### ⚙️ Chore
 
+- **(changelog-gen)**: Add changelog generation with git-cliff - ([9b61100](https://github.com/nongrata081/ai-ideas/commit/9b6110074f33d6d7fc43b1e7f6c9df1356e5422c))
 - **(devcontainers)**: Implement devcontainer.json + docker-compose.yml + Dockerfile - ([53b4fa1](https://github.com/nongrata081/ai-ideas/commit/53b4fa1de5a5c2fa8f1f0ad57a061e106064437a))
 - **(devcontainers)**: Add github-cli install, ssh setup docs - ([537ada2](https://github.com/nongrata081/ai-ideas/commit/537ada25c0c41019aafbd424e85f6c6ffd15caf1))
+- **(devcontainers)**: Add github actions vscode extensions to devcontainer.json config - ([bbfec90](https://github.com/nongrata081/ai-ideas/commit/bbfec90d6c365392a5666602b1ed8b3ce4eb0a3a))
 - **(update-nx-workspace)**: Update nx workspace to nx@19.8.2 - ([40a1fa6](https://github.com/nongrata081/ai-ideas/commit/40a1fa6a0e445cb3ec96446c48efeba5c7c06621))
 - **(vscode-devcontainers)**: Add devcontainers config for easy & reproducible dev environment - ([9beccd7](https://github.com/nongrata081/ai-ideas/commit/9beccd70c9f16198e823d5ba493541decc453d0e))
 
