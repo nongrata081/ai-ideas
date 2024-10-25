@@ -2,6 +2,8 @@
 
 ## Tools for kb implementation
 
+- [Mintlify](/product/features/knowledge-base/mintlify)
+
 - [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 
 - [openoffice](https://github.com/apache/openoffice)

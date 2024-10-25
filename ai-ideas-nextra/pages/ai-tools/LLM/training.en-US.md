@@ -1,5 +1,34 @@
 # LLM Training
 
+> Test [Hugging Face Transformers](#hugging-face-transformers) for ML tasks: training, fine-tuning, etc.
+
+if it works in a stable and predictable manner, then:
+
+> Use [Hugging Face Transformers](#hugging-face-transformers) by default for ML tasks: training, fine-tuning, etc.
+
+
+
+## Hugging Face Transformers
+
+[huggingface/transformers](https://github.com/huggingface/transformers)
+
+[hf.co/transformers](https://huggingface.co/docs/transformers/index)
+
+🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
+
+🤗 Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
+
+These models can be applied on:
+
+📝 Text, for tasks like text classification, information extraction, question answering, summarization, translation, and text generation, in over 100 languages.
+🖼️ Images, for tasks like image classification, object detection, and segmentation.
+🗣️ Audio, for tasks like speech recognition and audio classification.
+Transformer models can also perform tasks on several modalities combined, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
+
+🤗 Transformers provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub. At the same time, each python module defining an architecture is fully standalone and can be modified to enable quick research experiments.
+
+🤗 Transformers is backed by the three most popular deep learning libraries — Jax, PyTorch and TensorFlow — with a seamless integration between them. It's straightforward to train your models with one before loading them for inference with the other.
+
 ## composer
 https://github.com/mosaicml/composer
 
@@ -25,26 +54,9 @@ This repository records EleutherAI's library for **training large-scale language
 
 **If you are not looking to train models with billions of parameters from scratch, this is likely the wrong library to use. For generic inference needs, we recommend you use the Hugging Face transformers library instead which supports GPT-NeoX models.**
 
-## Transformers
-
-https://github.com/huggingface/transformers
-
-🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
-
-🤗 Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
-
-These models can be applied on:
-
-📝 Text, for tasks like text classification, information extraction, question answering, summarization, translation, and text generation, in over 100 languages.
-🖼️ Images, for tasks like image classification, object detection, and segmentation.
-🗣️ Audio, for tasks like speech recognition and audio classification.
-Transformer models can also perform tasks on several modalities combined, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
-
-🤗 Transformers provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub. At the same time, each python module defining an architecture is fully standalone and can be modified to enable quick research experiments.
-
-🤗 Transformers is backed by the three most popular deep learning libraries — Jax, PyTorch and TensorFlow — with a seamless integration between them. It's straightforward to train your models with one before loading them for inference with the other.
-
 ---
+
+## Allen AI suite
 
 https://allenai.org/olmo
 

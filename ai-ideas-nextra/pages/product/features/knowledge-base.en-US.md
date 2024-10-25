@@ -2,7 +2,15 @@
 
 (local open-source)
 
+## TODO
 
+- [ ] Do all [mintlify](/product/features/knowledge-base/mintlify)-related tasks
+- [ ] For knowledge base - add a vector DB and make embeddings of all kb files (create vectors out of those and store them in DB);
+    - add a UI to chat with knowledge base (to be able to extract knowledge fast);
+    - enable search across the knowledge base (show not just occurrences in text, but also files)
+    - [Obsidian + Cursor = Magical AI Knowledge Management](https://www.youtube.com/watch?v=nxss50uZgE0)
+- should we have a coursor like ide for free with local LMs?
+- [ ] [TriliumNext/web-clipper](https://github.com/TriliumNext/web-clipper) - what an awesome feature!
 
 ## Approach
 
@@ -12,6 +20,3 @@
     - This might save teams a lot of time for gathering and search of information on related topics
 
 
-## TODO
-
-- [TriliumNext/web-clipper](https://github.com/TriliumNext/web-clipper) - what an awesome feature!

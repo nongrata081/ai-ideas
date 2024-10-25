@@ -44,7 +44,24 @@ Self-host in 3 minutes
 - [gitpod-io/workspace-images](https://github.com/gitpod-io/workspace-images) Ready to use docker images for Gitpod workspaces
     - [gitpod.io/docs/.../workspace-image](https://www.gitpod.io/docs/configure/workspaces/workspace-image)
 
+### e2b fragments
+
+Can use it as an open-source next.js template to lookup possible implementations
+
+- [E2B Fragments](https://www.youtube.com/watch?v=2HKtVGz6xVs)
+    - [fragments.e2b.dev](https://fragments.e2b.dev/)
+    - [github.com/e2b-dev/fragments](https://github.com/e2b-dev/fragments)
+
 ### bolt.new
+
+We need two things:
+- [ollama support](https://github.com/stackblitz/bolt.new/issues/36) by bolt.new  
+- and open-source tool for [computer-use](https://www.anthropic.com/news/3-5-models-and-computer-use) for local llms via ollama
+    - Introducing [computer use](https://www.anthropic.com/news/3-5-models-and-computer-use), a new Claude 3.5 Sonnet, and Claude 3.5 Haiku
+    - [Developing a computer use model](https://www.anthropic.com/news/developing-computer-use)
+    - [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://os-world.github.io/)
+        - [xlang-ai/OSWorld](https://github.com/xlang-ai/OSWorld)
+        - paper: [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972)
 
 use [bolt.new](bolt.new) as an inspiration
 

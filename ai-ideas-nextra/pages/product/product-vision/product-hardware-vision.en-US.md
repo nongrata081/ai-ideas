@@ -1,5 +1,8 @@
 # Product hardware vision
 
+- [ ] Restructure contents of this file into more appropriate files / folders (contents cover not just hardware, but software too)
+- [ ] I need separate files to keep the vision for each particular system (CI-platform, CD-platform, etc.)
+
 > Enterprise-helper as a solution for AI-enabled self-hosting of apps, libs, services, models, AI.
 
 - Consider designing and developing **Enterprise-helper** as an end-to-end **solution** for **AI-enabled** & self-healing, **self-hosting** of apps & services.
@@ -31,6 +34,16 @@ Should I consider building (or assembling from existing products (e.g. compute b
 Imagine scalable production-ready full-cycle **AI-app-development hardware-stack** as a **commodity**. (At such a cheap affordable price, that anybody can buy it. Any individual. And scale it up to meet enterprise compute volumes, if needed).
 
 ### CI-server
+
+#### AI for CI
+
+Study [nx-cloud-ai](https://nx.dev/ci/concepts/nx-cloud-ai), consider implementing features alike, e.g.:
+
+> AI for your CI
+> 
+> Identify and **resolve task failures** instantly with intelligent explanations and actionable solutions. Set your desired CI run time, and Nx Cloud will match it. Our **custom AI model** analyzes your previous runs, then **dynamically predicts and allocates** the optimal number of agents. The more you use it, the smarter it gets. Take the guesswork out of your work.
+
+#### Other
 
 Should be performant enough in order to be able to run **DevOps for apps/libs**, but also **MLOps for LMs, Data**. Ideally have an open-source solution like nx, but also cloud solution like cloud.nx.app.
 
@@ -65,13 +78,29 @@ Should be performant enough in order to be able to run **DevOps for apps/libs**,
 
 - [opentofu](https://github.com/opentofu/opentofu) for Infrastructure as Code ?
 
+#### CI-platform Status Page
+
+[Using hud.pytorch.org](https://github.com/pytorch/pytorch/wiki/Using-hud.pytorch.org)
+
+[hud.pytorch.org](https://hud.pytorch.org/)
+
+[pytorch/ci-hud](https://github.com/pytorch/ci-hud)
+
 ### CD Server
 
 Local Continuous Deployment Platform like [vercel](https://github.com/vercel/vercel) (github link) ?
 
+#### CD Server Status Page
+
+Do we need one?
+
 ### AI-Server
 
 ...
+
+#### AI Server Status Page
+
+Do we need one?
 
 ### Tabletop cluster (?)
 

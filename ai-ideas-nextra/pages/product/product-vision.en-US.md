@@ -44,6 +44,10 @@
 
 AI-native enterprise execution platform. Each **feature**, each **process** is to be thought of from the perspective of **how it can be enhanced with LLMs**. Throughout the entire **[Enterprise Runtime Stack](#enterprise-runtime-stack)**.
 
+## Neural interface
+
+Implement a neural interface to interact with LMs. Instead of sending text / voice to LMs, **make LMs able to recognize thoughts and execute them**. (e.g. **neuralink** ?)
+
 ## Responsible AI
 
 SAFe has a bit analog approach to [Responsible AI](/ai-vision/responsible-ai). My vision is just **implement all evaluation types** that are possible in **programmatic way** with LMs and AI Agents. So that any developer of an AI tool can: 
@@ -110,6 +114,7 @@ Consider adding SRE management to the Enterprise-helper?
     - [authelia/authelia](https://github.com/authelia/authelia)
 - Add **team communication** with [element.io]()
     - [element-hq/element-web](https://github.com/element-hq/element-web) github
+    - Add realtime translations? (enable people speaking different languages to communicate in their own language, and get translations in real-time (text / voice?)) [Talk to Anyone! - Better Translations with OpenAI's NEW Realtime API](https://www.youtube.com/watch?v=T0_jOv9thyM)
 - Build a **CLI-tool** for Enterprise-helper?
     - like https://github.com/cli/cli
     - https://github.com/supabase/cli
@@ -168,6 +173,35 @@ Python Client Library for the Archive.org OpenLibrary API
     - [ProseMirror](https://prosemirror.net/) / [gh](https://github.com/ProseMirror/prosemirror)
     - [Trumbowyg](https://alex-d.github.io/Trumbowyg/) / [gh](https://github.com/Alex-D/Trumbowyg)
 - **Share conversations** (chat) history **across** different **LM-chat apps**. (e.g. open-webui - Enterprise -helper).
+- Implement **AI Assistance for Finance** 
+    - Reference: **Report Cruncher** as a reference for Fin part of Enterprise-helper:
+https://chuangtc.com/openai-hackathon-2023/
+- Add Enterprise-helper **AI plugins for business use-cases**:
+    - https://tome.app/
+    - https://zapier.com/
+    - https://gravitywrite.com/
+    - https://audiobox.metademolab.com/
+    - https://akool.com/
+    - https://elevenlabs.io/
+    - https://www.goenhance.ai/
+    - https://pictory.ai/
+    - https://taplio.com/
+    - https://www.nvidia.com/nl-nl/geforce/broadcasting/broadcast-app/
+    - https://revoicer.com/
+- **Knowledge packages for LMs** ?
+    - Is that related? : [Efficient Document Chunking Using LLMs: Unlocking Knowledge One Block at a Time](https://towardsdatascience.com/efficient-document-chunking-using-llms-unlocking-knowledge-one-block-at-a-time-355717a88c5c)
+- Add LLM benchmark:
+    - https://www.youtube.com/watch?v=0EInsMyH87Q
+    - https://github.com/aidatatools/ollama-benchmark
+    - https://llm.aidatatools.com/
+- Add LLM Sentinel:
+    - https://github.com/aidatatools/LLM_Sentinel
+    - Read Articles, Extract !!!!
+- ADD click-template-cli 
+    - https://github.com/chuangtc/click-template-cli
+
+- Update product vision. What I'm building is not just an application with features, but rather intelligence, applicable to certain domains, e.g. code intelligence, finance intelligence, quality intelligence, etc. Thus, the Enterprise-helper is a set of programmatic intelligences, capable of human-like problem-solving.
+- Consider [ghosty](https://mitchellh.com/writing/ghostty-is-coming) as a terminal? 
 
 ### Finance
 
