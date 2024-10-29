@@ -53,7 +53,15 @@ Introduce **release-context** for an AI-app, that would have references to every
 
 In AI age being able to ship reliable software implies that you have to run all OPS (traditional **development operations** for linting, building, testing,  etc. for applications and libraries & **machine learning operations** like training, fine-tuning, evaluating, etc) in an automated way in **CI** as a part of your every-day development / training workflow and for making releases.
 
-## Web-containers & bolt.new
+## Web-containers & [bolt.new](/software-engineering/bolt-new)
+
+## Webcontainers + Operating System (?)
+
+Instead of a window with tabs (code + preview) open a window of containerized Operating System with full programmatic control of it.
+
+Then there is flexibility to implement any workflow with any software. Have actual VSCode and actual Chrome browser in the window on the right for performing actions, controllable with a programmable agent, rather than just `Code / Preview` tabs.
+
+## bolt.new
 
 Revolution in AI. bolt.new -like apps will most probably soon take over in every field. Imagine apps with chat with LM on the left-side + web-containerized dev environment on the right side - with an OS and stack of software (Penpot for UI prototyping, Databases and anything else open-source for any kind of work), fully manipulated by LM.
 

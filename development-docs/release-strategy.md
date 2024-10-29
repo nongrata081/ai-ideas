@@ -1,7 +1,5 @@
 # Release Strategy
 
-# Release Strategy
-
 ## Development workflow
 
 For simplicity & speed, while I'm only contributor, no GitFlow is needed, and all work can be done in one single `main` git branch.

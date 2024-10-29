@@ -1,4 +1,14 @@
-# VSCode
+# 
+
+## Continue
+
+[continue](https://github.com/continuedev/continue) - VSCode extensions for LMs (via ollama / lmstudio / etc.)
+
+⏩ Continue is the leading open-source AI code assistant. You can connect any models and any context to build custom autocomplete and chat experiences inside VS Code and JetBrains
+
+[youtube.com/@continuedev/videos](https://www.youtube.com/@continuedev/videos)
+
+[Docs](https://docs.continue.dev/)
 
 ## Material Icon Theme
 

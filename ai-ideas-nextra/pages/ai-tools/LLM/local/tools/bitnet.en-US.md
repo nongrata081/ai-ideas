@@ -1,5 +1,11 @@
 # BitNet
 
+## nGPT
+
+What about [nGPT](https://www.youtube.com/watch?v=wqDLHVh_iqI)
+
+---
+
 [microsoft/BitNet](https://github.com/microsoft/BitNet)
 
 Official inference framework for 1-bit LLMs

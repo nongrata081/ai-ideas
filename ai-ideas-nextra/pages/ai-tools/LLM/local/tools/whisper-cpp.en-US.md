@@ -1,5 +1,7 @@
 # whisper.cpp
 
+[Alex Ziskind about whisper.cpp](https://www.youtube.com/watch?v=n_2Lws2htBY)
+
 [whisper.cpp](https://github.com/ggerganov/whisper.cpp) github
 
 Port of OpenAI's Whisper model in C/C++

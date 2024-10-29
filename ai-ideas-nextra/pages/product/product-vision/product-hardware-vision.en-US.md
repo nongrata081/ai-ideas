@@ -35,6 +35,10 @@ Imagine scalable production-ready full-cycle **AI-app-development hardware-stack
 
 ### CI-server
 
+#### CI-specific hardware
+
+Consider crafting [CI-specific hardware](https://www.runblaze.dev/docs/runners/hardware) (& [runners](https://www.runblaze.dev/blog/08-15-24-linux-release)?) like in [Blaze](https://www.runblaze.dev/docs/introduction) (for CI across the entire AI-dev (CI for apps, CI for LMs, etc.))
+
 #### AI for CI
 
 Study [nx-cloud-ai](https://nx.dev/ci/concepts/nx-cloud-ai), consider implementing features alike, e.g.:

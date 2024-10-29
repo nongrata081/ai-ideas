@@ -1,5 +1,17 @@
 # OS Control
 
+## OmniParser for GUI Agent
+
+[OmniParser](https://github.com/microsoft/OmniParser)
+
+[OmniParser for Pure Vision Based GUI Agent](https://microsoft.github.io/OmniParser/)
+
+OmniParser: Screen Parsing tool for Pure Vision Based GUI Agent
+
+[Microsoft OmniParser - Screen Parsing Model - Install Locally](https://www.youtube.com/watch?v=STXUR20P7r8)
+
+[Microsoft AI Releases OmniParser Model on HuggingFace](https://www.youtube.com/watch?v=UHLy7vIdOUU)
+
 ## LLM OS
 
 ### Andrej Karpathy's LLM OS
@@ -107,3 +119,14 @@ Mind2Web is a dataset for developing and evaluating generalist agents for the we
 - Provide challenging yet realistic environments with real-world websites.
 - Test generalization ability across tasks and environments.
 
+## Tools
+
+### iOS
+
+[scriptable.app](https://scriptable.app/) - Automate iOS using JavaScript
+
+[a-shell](https://github.com/holzschu/a-shell) - A terminal for iOS, with multiple windows
+
+### ?
+
+[shizuku](https://shizuku.rikka.app/) - Let your app use system APIs directly

@@ -35,6 +35,7 @@
 - CD-server
 - AI-server
 - Code Intelligence
+- [Network intelligence](/product/features/network-intelligence)
 - Enterprise Intelligence
 - Team Communication
 - Status Page System
@@ -47,6 +48,12 @@ AI-native enterprise execution platform. Each **feature**, each **process** is t
 ## Neural interface
 
 Implement a neural interface to interact with LMs. Instead of sending text / voice to LMs, **make LMs able to recognize thoughts and execute them**. (e.g. **neuralink** ?)
+
+- [emotiv](https://www.emotiv.com/)
+- [EmotivAcademy](https://www.youtube.com/@EmotivAcademy/videos)
+- [emotivstation](https://www.youtube.com/@emotivstation)
+
+bci (brain-computer-interface)
 
 ## Responsible AI
 

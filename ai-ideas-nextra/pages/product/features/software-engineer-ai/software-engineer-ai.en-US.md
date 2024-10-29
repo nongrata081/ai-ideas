@@ -52,7 +52,7 @@ Can use it as an open-source next.js template to lookup possible implementations
     - [fragments.e2b.dev](https://fragments.e2b.dev/)
     - [github.com/e2b-dev/fragments](https://github.com/e2b-dev/fragments)
 
-### bolt.new
+### [bolt.new](/software-engineering/bolt-new)
 
 We need two things:
 - [ollama support](https://github.com/stackblitz/bolt.new/issues/36) by bolt.new  
