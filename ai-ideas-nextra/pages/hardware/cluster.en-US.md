@@ -1,5 +1,7 @@
 # Cluster
 
+[Supermicro AI super clusters](https://www.supermicro.com/en/solutions/ai-supercluster?utm_source=ai-supercluster&utm_medium=301)
+
 ## DeskPi
 
 ### RackMate T1 Rackmount, 8U Server Cabinet for Network, Servers, Audio, and Video Equipment

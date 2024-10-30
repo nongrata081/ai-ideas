@@ -46,3 +46,4 @@ Thumbs.db
 out
 
 storybook-static
+**/vite.config.{js,ts,mjs,mts,cjs,cts}.timestamp*

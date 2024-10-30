@@ -35,6 +35,10 @@ Imagine scalable production-ready full-cycle **AI-app-development hardware-stack
 
 ### CI-server
 
+[devnw/atomizer](https://github.com/devnw/atomizer) - for parallel execution
+
+Imagine thousands of machines across multiple cloud instances and data centers executing simultaneous processing for you with minimal deployment effort. Enter Atomizer - a Go library that facilitates massively parallel and distributed computing. Fashioned after Go itself using similar CSP paradigms.
+
 #### CI-specific hardware
 
 Consider crafting [CI-specific hardware](https://www.runblaze.dev/docs/runners/hardware) (& [runners](https://www.runblaze.dev/blog/08-15-24-linux-release)?) like in [Blaze](https://www.runblaze.dev/docs/introduction) (for CI across the entire AI-dev (CI for apps, CI for LMs, etc.))

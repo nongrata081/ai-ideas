@@ -100,5 +100,6 @@
     "e2e-ci--**/*": {
       "dependsOn": ["^build"]
     }
-  }
+  },
+  "useLegacyCache": true
 }
