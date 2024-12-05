@@ -20,4 +20,4 @@ cd ai-ideas-nextra
 npm install
 
 # Start the knowledge base development server
-npm run dev
+# npm run dev

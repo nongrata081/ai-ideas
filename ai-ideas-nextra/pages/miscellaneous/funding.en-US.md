@@ -16,7 +16,7 @@ https://zod.dev/blog/clerk-fellowship
 
 https://zod.dev/
 
-![](./zod-funding-example.png)
+<!-- ![](./zod-funding-example.png) -->
 
 ## Github donors
 
